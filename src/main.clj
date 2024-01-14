@@ -22,15 +22,15 @@
     :body (JSON/stringify data)
     :headers {"Content-Type" "application/json"}}))
 
-(defn- get_unique_words [text]
-  (->
-   text
-   (.split (RegExp. "[ ():;,.]+"))
-   (.filter (fn [x] (>= x.length 3)))
-   (.map (fn [x] (.toLowerCase x)))
-   Set. Array/from))
-
 (defn- get_users_to_notify [r text]
+  (defn- get_unique_words [text]
+    (->
+     text
+     (.split (RegExp. "[ ():;,.]+"))
+     (.filter (fn [x] (>= x.length 3)))
+     (.map (fn [x] (.toLowerCase x)))
+     Set. Array/from))
+
   (let [topics (.reduce r (fn [map x] (.set map x.topic (.split x.user_ids ","))) (Map.))
         words (get_unique_words text)]
     (->
@@ -38,7 +38,7 @@
      (.flatMap (fn [w] (or (.get topics w) [])))
      Set. Array/from)))
 
-(defn- handle [update]
+(defn handle [update]
   (if-let [text update?.message?.text
            user_id update?.message?.from?.id
            chat_id update?.message?.chat?.id
