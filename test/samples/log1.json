@@ -1,0 +1,78 @@
+[
+    {
+        "in": {},
+        "out": {
+            "update_id": 569125792,
+            "message": {
+                "message_id": 5800,
+                "from": {
+                    "id": 241854720,
+                    "is_bot": false,
+                    "first_name": "Igor",
+                    "username": "angmarr",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": 241854720,
+                    "first_name": "Igor",
+                    "username": "angmarr",
+                    "type": "private"
+                },
+                "date": 1705150572,
+                "text": "/ls",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 3,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "in": [
+            "db",
+            [
+                "SELECT * FROM subscriptions WHERE content->>'user_id' = ?",
+                [
+                    241854720
+                ]
+            ]
+        ],
+        "out": [
+            {
+                "id": 2,
+                "content": "{\"topic\":\"elm2\",\"user_id\":241854720}"
+            },
+            {
+                "id": 3,
+                "content": "{\"topic\":\"elm3\",\"user_id\":241854720}"
+            },
+            {
+                "id": 4,
+                "content": "{\"topic\":\"elm2\",\"user_id\":241854720}"
+            },
+            {
+                "id": 8,
+                "content": "{\"topic\":\"true\",\"user_id\":241854720}"
+            }
+        ]
+    },
+    {
+        "in": [
+            "fetch",
+            [
+                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+                {
+                    "method": "POST",
+                    "body": "{\"chat_id\":241854720,\"text\":\"Your subscriptions:\\n- elm2\\n- elm3\\n- elm2\\n- true\"}",
+                    "headers": {
+                        "Content-Type": "application/json"
+                    }
+                }
+            ]
+        ],
+        "out": {}
+    }
+]
