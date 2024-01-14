@@ -1,0 +1,13 @@
+name = "declarative-notify"
+main = "_build_/main.js"
+compatibility_date = "2023-10-30"
+node_compat = true
+
+[build]
+command = "make build"
+watch_dir = ["../src"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "DECLARATIVE_NOTIFY_BOT_DB"
+database_id = "38f1f495-2567-4eb6-bba1-9bfcb76e29f9"

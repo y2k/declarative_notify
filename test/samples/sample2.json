@@ -1,0 +1,28 @@
+{
+    "update_id": 569125811,
+    "message": {
+        "message_id": 5819,
+        "from": {
+            "id": 241854720,
+            "is_bot": false,
+            "first_name": "Igor",
+            "username": "angmarr",
+            "language_code": "en"
+        },
+        "chat": {
+            "id": 241854720,
+            "first_name": "Igor",
+            "username": "angmarr",
+            "type": "private"
+        },
+        "date": 1705159167,
+        "text": "/sub elm",
+        "entities": [
+            {
+                "offset": 0,
+                "length": 4,
+                "type": "bot_command"
+            }
+        ]
+    }
+}

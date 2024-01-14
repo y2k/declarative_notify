@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS subscriptions;
+
+CREATE TABLE IF NOT EXISTS subscriptions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    content TEXT NOT NULL
+);
