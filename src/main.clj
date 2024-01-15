@@ -1,5 +1,11 @@
 (__unsafe_insert_js "import * as e from './vendor/effects.js';")
 
+(defn- eff_db [sql args]
+  (fn [env] (env/perform :db [sql args])))
+
+(defn- eff_fetch [url props]
+  (fn [env] (env/perform :fetch [url props])))
+
 (defn- attach_eff_db [world env]
   (assoc
    world :perform
@@ -15,23 +21,6 @@
           (.run)
           (.then (fn [x] x.results))))))))
 
-(defn- attach_log [world]
-  (assoc
-   world :perform
-   (fn [name args]
-     (println "IN:" (JSON/stringify [name args] null 2))
-     (.then
-      (world/perform name args)
-      (fn [result]
-        (println "OUT:" (JSON/stringify result null 2))
-        result)))))
-
-(defn- eff_db [sql args]
-  (fn [env] (env/perform :db [sql args])))
-
-(defn- eff_fetch [url props]
-  (fn [env] (env/perform :fetch [url props])))
-
 (defn- attach_eff_fetch [world env]
   (assoc world :perform
          (fn [name args]
@@ -42,6 +31,17 @@
                (->
                 (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
                 (fetch props)))))))
+
+(defn- attach_log [world]
+  (assoc
+   world :perform
+   (fn [name args]
+     (println "IN:" (JSON/stringify [name args] null 2))
+     (.then
+      (world/perform name args)
+      (fn [result]
+        (println "OUT:" (JSON/stringify result null 2))
+        result)))))
 
 (defn- send_message [data]
   (eff_fetch
