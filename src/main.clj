@@ -111,6 +111,8 @@
   (fn [request env ctx]
     (->
      (.json request)
-     (.then (fn [update] (e/run_effect (handle update) (-> env (attach_eff_db env) (attach_eff_fetch env) attach_log))))
+     (.then (fn [update]
+              (println (JSON/stringify update null 2))
+              (e/run_effect (handle update) (-> env (attach_eff_db env) (attach_eff_fetch env) attach_log))))
      (.catch console.error)
      (.then (fn [] (Response. (str "Healthy - " (Date.)))))))})
