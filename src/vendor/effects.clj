@@ -15,3 +15,11 @@
        pr
        (fn [r] (let [r2 (f r)]
                  (r2 env)))))))
+
+(defn attach_eff [world key eff]
+  (assoc
+   world :perform
+   (fn [name args]
+     (if (not= name key)
+       (world/perform name args)
+       (eff args)))))

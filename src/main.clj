@@ -1,47 +1,10 @@
-(__unsafe_insert_js "import * as e from './vendor/effects.js';")
+(require [vendor.effects :as e])
 
 (defn- eff_db [sql args]
   (fn [env] (env/perform :db [sql args])))
 
 (defn- eff_fetch [url props]
   (fn [env] (env/perform :fetch [url props])))
-
-(defn- attach_eff_db [world env]
-  (assoc
-   world :perform
-   (fn [name args]
-     (if (not= name :db)
-       (world/perform name args)
-       (let [sql (.at args 0)
-             sql_args (.at args 1)]
-         (->
-          env.DB
-          (.prepare sql)
-          (.bind (spread sql_args))
-          (.run)
-          (.then (fn [x] x.results))))))))
-
-(defn- attach_eff_fetch [world env]
-  (assoc world :perform
-         (fn [name args]
-           (if (not= name :fetch)
-             (world/perform name args)
-             (let [url (.at args 0)
-                   props (.at args 1)]
-               (->
-                (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
-                (fetch props)))))))
-
-(defn- attach_log [world]
-  (assoc
-   world :perform
-   (fn [name args]
-     (println "IN:" (JSON/stringify [name args] null 2))
-     (.then
-      (world/perform name args)
-      (fn [result]
-        (println "OUT:" (JSON/stringify result null 2))
-        result)))))
 
 (defn- send_message [data]
   (eff_fetch
@@ -106,6 +69,18 @@
             FIXME))))
     (FIXME (JSON/stringify update))))
 
+;; Infrastructure
+
+(defn- attach_log [world]
+  (assoc world :perform
+         (fn [name args]
+           (println "IN:" (JSON/stringify [name args] null 2))
+           (.then
+            (world/perform name args)
+            (fn [result]
+              (println "OUT:" (JSON/stringify result null 2))
+              result)))))
+
 (export-default
  {:fetch
   (fn [request env ctx]
@@ -113,6 +88,25 @@
      (.json request)
      (.then (fn [update]
               (println (JSON/stringify update null 2))
-              (e/run_effect (handle update) (-> env (attach_eff_db env) (attach_eff_fetch env) attach_log))))
+              (e/run_effect
+               (handle update)
+               (->
+                env
+                (e/attach_eff :db
+                              (fn [args]
+                                (let [sql (.at args 0) sql_args (.at args 1)]
+                                  (->
+                                   env.DB
+                                   (.prepare sql)
+                                   (.bind (spread sql_args))
+                                   (.run)
+                                   (.then (fn [x] x.results))))))
+                (e/attach_eff :fetch
+                              (fn [args]
+                                (let [url (.at args 0) props (.at args 1)]
+                                  (->
+                                   (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
+                                   (fetch props)))))
+                attach_log))))
      (.catch console.error)
      (.then (fn [] (Response. (str "Healthy - " (Date.)))))))})
