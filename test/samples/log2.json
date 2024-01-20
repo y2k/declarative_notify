@@ -34,7 +34,7 @@
         "in": [
             "db",
             [
-                "INSERT INTO subscriptions (content) VALUES (?)",
+                "INSERT INTO subscriptions (document) VALUES (?)",
                 [
                     "{\"topic\":\"elm\",\"user_id\":241854720}"
                 ]

@@ -34,7 +34,7 @@
         "in": [
             "db",
             [
-                "SELECT * FROM subscriptions WHERE content->>'user_id' = ?",
+                "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
                 [
                     241854720
                 ]
@@ -43,19 +43,19 @@
         "out": [
             {
                 "id": 2,
-                "content": "{\"topic\":\"elm2\",\"user_id\":241854720}"
+                "document": "{\"topic\":\"elm2\",\"user_id\":241854720}"
             },
             {
                 "id": 3,
-                "content": "{\"topic\":\"elm3\",\"user_id\":241854720}"
+                "document": "{\"topic\":\"elm3\",\"user_id\":241854720}"
             },
             {
                 "id": 4,
-                "content": "{\"topic\":\"elm2\",\"user_id\":241854720}"
+                "document": "{\"topic\":\"elm2\",\"user_id\":241854720}"
             },
             {
                 "id": 8,
-                "content": "{\"topic\":\"true\",\"user_id\":241854720}"
+                "document": "{\"topic\":\"true\",\"user_id\":241854720}"
             }
         ]
     },

@@ -35,33 +35,31 @@
            chat_id update?.message?.chat?.id
            message_id update?.message?.message_id]
     (if (= chat_id user_id)
-      (if (= "/ls" text)
-        (->
-         (eff_db "SELECT * FROM subscriptions WHERE content->>'user_id' = ?" [user_id])
-         (e/then
-          (fn [items]
-            (let [message (->
-                           (.map items (fn [x] (JSON/parse x.content)))
-                           (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))]
-              (send_message {:chat_id user_id :text message})))))
-        (if (.startsWith text "/sub ")
-          (let [topic (.substring text 5)]
-            (e/batch
-             [(eff_db
-               "INSERT INTO subscriptions (content) VALUES (?)"
-               [(JSON/stringify {:topic topic :user_id user_id})])
-              (send_message {:chat_id user_id :text "Subscription created"})]))
-          (if (.startsWith text "/rm ")
-            (let [topic (.substring text 4)]
-              (e/batch
-               [(eff_db
-                 "DELETE FROM subscriptions WHERE content->>'topic' = ?"
-                 [topic])
-                (send_message {:chat_id user_id :text "Subscriptions deleted"})]))
-            FIXME)))
+      (cond
+        (= "/ls" text) (->
+                        (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
+                        (e/then
+                         (fn [items]
+                           (let [message (->
+                                          (.map items (fn [x] (JSON/parse x.document)))
+                                          (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))]
+                             (send_message {:chat_id user_id :text message})))))
+        (.startsWith text "/sub ") (let [topic (.substring text 5)]
+                                     (e/batch
+                                      [(eff_db
+                                        "INSERT INTO subscriptions (document) VALUES (?)"
+                                        [(JSON/stringify {:topic topic :user_id user_id})])
+                                       (send_message {:chat_id user_id :text "Subscription created"})]))
+        (.startsWith text "/rm ") (let [topic (.substring text 4)]
+                                    (e/batch
+                                     [(eff_db
+                                       "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?"
+                                       [topic user_id])
+                                      (send_message {:chat_id user_id :text "Subscriptions deleted"})]))
+        :else FIXME)
       (if (= chat_id -1002110559199)
         (->
-         (eff_db "SELECT content->>'topic' AS topic, group_concat(distinct(content->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
+         (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
          (e/then
           (fn [r]
             (->
@@ -98,10 +96,7 @@
                               (fn [args]
                                 (let [sql (.at args 0) sql_args (.at args 1)]
                                   (->
-                                   env.DB
-                                   (.prepare sql)
-                                   (.bind (spread sql_args))
-                                   (.run)
+                                   env.DB (.prepare sql) (.bind (spread sql_args)) .run
                                    (.then (fn [x] x.results))))))
                 (e/attach_eff :fetch
                               (fn [args]

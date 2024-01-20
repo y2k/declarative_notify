@@ -27,7 +27,7 @@
         "in": [
             "db",
             [
-                "SELECT content->>'topic' AS topic, group_concat(distinct(content->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic",
+                "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic",
                 []
             ]
         ],

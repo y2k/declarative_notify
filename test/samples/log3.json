@@ -34,9 +34,10 @@
         "in": [
             "db",
             [
-                "DELETE FROM subscriptions WHERE content->>'topic' = ?",
+                "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?",
                 [
-                    "elm"
+                    "elm",
+                    241854720
                 ]
             ]
         ],
