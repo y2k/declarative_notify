@@ -23,3 +23,13 @@
      (if (not= name key)
        (world/perform name args)
        (eff args)))))
+
+(defn attach_log [world]
+  (assoc world :perform
+         (fn [name args]
+           (println "IN:" (JSON/stringify [name args] null 2))
+           (.then
+            (world/perform name args)
+            (fn [result]
+              (println "OUT:" (JSON/stringify result null 2))
+              result)))))

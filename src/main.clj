@@ -29,57 +29,73 @@
      (.flatMap (fn [w] (or (.get topics w) [])))
      Set. Array/from)))
 
-(defn handle [update]
+(defn- match_rule [text regex]
+  (and text
+       (let [r (.match text (RegExp. regex))]
+         (and r (.at r 1)))))
+
+(defn- handle_ls [update]
+  (if-let [user_id update?.message?.from?.id
+           _ (= update?.message?.text "/ls")]
+    (->
+     (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
+     (e/then
+      (fn [items]
+        (let [message (->
+                       (.map items (fn [x] (JSON/parse x.document)))
+                       (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))]
+          (send_message {:chat_id user_id :text message})))))
+    null))
+
+(defn- handle_sub [update]
+  (if-let [user_id update?.message?.from?.id
+           topic (match_rule update?.message?.text "/sub\\s+(\\w+)")]
+    (e/batch
+     [(eff_db
+       "INSERT INTO subscriptions (document) VALUES (?)"
+       [(JSON/stringify {:topic topic :user_id user_id})])
+      (send_message {:chat_id user_id :text "Subscription created"})])
+    null))
+
+(defn- handle_rm [update]
+  (if-let [user_id update?.message?.from?.id
+           topic (match_rule update?.message?.text "/rm\\s+(\\w+)")]
+    (e/batch
+     [(eff_db
+       "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?"
+       [topic user_id])
+      (send_message {:chat_id user_id :text "Subscriptions deleted"})])
+    null))
+
+(defn- handle_chat_update [update]
   (if-let [text update?.message?.text
            user_id update?.message?.from?.id
            chat_id update?.message?.chat?.id
-           message_id update?.message?.message_id]
-    (if (= chat_id user_id)
-      (cond
-        (= "/ls" text) (->
-                        (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
-                        (e/then
-                         (fn [items]
-                           (let [message (->
-                                          (.map items (fn [x] (JSON/parse x.document)))
-                                          (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))]
-                             (send_message {:chat_id user_id :text message})))))
-        (.startsWith text "/sub ") (let [topic (.substring text 5)]
-                                     (e/batch
-                                      [(eff_db
-                                        "INSERT INTO subscriptions (document) VALUES (?)"
-                                        [(JSON/stringify {:topic topic :user_id user_id})])
-                                       (send_message {:chat_id user_id :text "Subscription created"})]))
-        (.startsWith text "/rm ") (let [topic (.substring text 4)]
-                                    (e/batch
-                                     [(eff_db
-                                       "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?"
-                                       [topic user_id])
-                                      (send_message {:chat_id user_id :text "Subscriptions deleted"})]))
-        :else FIXME)
-      (if (= chat_id -1002110559199)
+           message_id update?.message?.message_id
+           _ (= chat_id -1002110559199)]
+    (->
+     (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
+     (e/then
+      (fn [r]
         (->
-         (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
-         (e/then
-          (fn [r]
-            (->
-             (get_users_to_notify r text)
-             (.map (fn [user_id] (send_message {:chat_id user_id :text (str "Topic updated: https://t.me/xofftop/" message_id)})))
-             e/batch))))
-        FIXME))
+         (get_users_to_notify r text)
+         (.map (fn [user_id] (send_message {:chat_id user_id :text (str "Topic updated: https://t.me/xofftop/" message_id)})))
+         e/batch))))
+    (FIXME (JSON/stringify update))))
+
+(defn handle [update]
+  (if-let [user_id update?.message?.from?.id
+           chat_id update?.message?.chat?.id]
+    (if (= chat_id user_id)
+      (or
+       (handle_ls update)
+       (handle_sub update)
+       (handle_rm update)
+       (e/pure null))
+      (handle_chat_update update))
     (FIXME (JSON/stringify update))))
 
 ;; Infrastructure
-
-(defn- attach_log [world]
-  (assoc world :perform
-         (fn [name args]
-           (println "IN:" (JSON/stringify [name args] null 2))
-           (.then
-            (world/perform name args)
-            (fn [result]
-              (println "OUT:" (JSON/stringify result null 2))
-              result)))))
 
 (export-default
  {:fetch
@@ -104,6 +120,6 @@
                                   (->
                                    (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
                                    (fetch props)))))
-                attach_log))))
+                e/attach_log))))
      (.catch console.error)
      (.then (fn [] (Response. (str "Healthy - " (Date.)))))))})
