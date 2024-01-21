@@ -1,0 +1,53 @@
+[
+    {
+        "in": {},
+        "out": {
+            "update_id": 569126016,
+            "message": {
+                "message_id": 764,
+                "from": {
+                    "id": 241854720,
+                    "is_bot": false,
+                    "first_name": "Igor",
+                    "username": "angmarr",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": -1002110559199,
+                    "title": "Declarative offtop",
+                    "username": "xofftop",
+                    "type": "supergroup"
+                },
+                "date": 1705321714,
+                "text": "Он позволяет: позволяет Избежать, лишних. рекомпозиции;, Elm2 если у тебя Будет. одно, и то же значениЕ (например, true) присваиваться несколько раз подряд"
+            }
+        }
+    },
+    {
+        "in": [
+            "db",
+            [
+                "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic",
+                []
+            ]
+        ],
+        "out": [
+            {
+                "topic": "elm2",
+                "user_ids": "241854720,241854721"
+            },
+            {
+                "topic": "elm3",
+                "user_ids": "241854720"
+            },
+            {
+                "topic": "elm4",
+                "user_ids": "241854721"
+            },
+            {
+                "topic": "true",
+                "user_ids": "241854720"
+            }
+        ]
+    }
+]
