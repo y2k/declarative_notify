@@ -13,38 +13,24 @@
     :body (JSON/stringify data)
     :headers {"Content-Type" "application/json"}}))
 
-(defn- get_users_to_notify [r text]
-  (defn- get_unique_words [text]
-    (->
-     text
-     (.split (RegExp. "[ ():;,.]+"))
-     (.filter (fn [x] (>= x.length 3)))
-     (.map (fn [x] (.toLowerCase x)))
-     Set. Array/from))
-
-  (let [topics (.reduce r (fn [map x] (.set map x.topic (.split x.user_ids ","))) (Map.))
-        words (get_unique_words text)]
-    (->
-     words
-     (.flatMap (fn [w] (or (.get topics w) [])))
-     Set. Array/from)))
-
 (defn- match_rule [text regex]
   (and text
        (let [r (.match text (RegExp. regex))]
          (and r (.at r 1)))))
+
+(defn- handle_ls_send [user_id items]
+  (send_message
+   {:chat_id user_id
+    :text (->
+           (.map items (fn [x] (JSON/parse x.document)))
+           (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))}))
 
 (defn- handle_ls [update]
   (if-let [user_id update?.message?.from?.id
            _ (= update?.message?.text "/ls")]
     (->
      (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
-     (e/then
-      (fn [items]
-        (let [message (->
-                       (.map items (fn [x] (JSON/parse x.document)))
-                       (.reduce (fn [a x] (str a "\n- " x.topic)) "Your subscriptions:"))]
-          (send_message {:chat_id user_id :text message})))))
+     (e/then (fn [items] (handle_ls_send user_id items))))
     null))
 
 (defn- handle_sub [update]
@@ -67,6 +53,31 @@
       (send_message {:chat_id user_id :text "Subscriptions deleted"})])
     null))
 
+(defn handle_chat_update_send [message_id text r]
+  (defn- get_unique_words [text]
+    (->
+     text
+     (.split (RegExp. "[ ():;,.]+"))
+     (.filter (fn [x] (>= x.length 3)))
+     (.map (fn [x] (.toLowerCase x)))
+     Set. Array/from))
+
+  (defn- get_users_to_notify [r text]
+    (let [topics (.reduce r (fn [map x] (.set map x.topic (.split x.user_ids ","))) (Map.))
+          words (get_unique_words text)]
+      (->
+       words
+       (.flatMap (fn [w] (or (.get topics w) [])))
+       Set. Array/from)))
+
+  (->
+   (get_users_to_notify r text)
+   (.map (fn [user_id]
+           (send_message
+            {:chat_id user_id
+             :text (str "Topic updated: https://t.me/xofftop/" message_id)})))
+   e/batch))
+
 (defn- handle_chat_update [update]
   (if-let [text update?.message?.text
            user_id update?.message?.from?.id
@@ -75,12 +86,7 @@
            _ (= chat_id -1002110559199)]
     (->
      (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
-     (e/then
-      (fn [r]
-        (->
-         (get_users_to_notify r text)
-         (.map (fn [user_id] (send_message {:chat_id user_id :text (str "Topic updated: https://t.me/xofftop/" message_id)})))
-         e/batch))))
+     (e/then (fn [r] (handle_chat_update_send message_id text r))))
     (FIXME (JSON/stringify update))))
 
 (defn handle [update]
@@ -122,4 +128,4 @@
                                    (fetch props)))))
                 e/attach_log))))
      (.catch console.error)
-     (.then (fn [] (Response. (str "Healthy - " (Date.)))))))})
+     (.then (fn [] (Response. (str "OK - " (Date.)))))))})
