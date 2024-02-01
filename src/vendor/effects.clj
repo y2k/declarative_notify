@@ -16,6 +16,12 @@
        (fn [r] (let [r2 (f r)]
                  (r2 env)))))))
 
+(defn attach_empty_effect_handler [world]
+  (assoc
+   world :perform
+   (fn [name args]
+     (FIXME "Effect [" name "] not handled, args: " (JSON/stringify args)))))
+
 (defn attach_eff [world key eff]
   (assoc
    world :perform

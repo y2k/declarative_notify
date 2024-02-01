@@ -1,0 +1,28 @@
+[
+    {
+        "key": "fetch",
+        "data": [
+            "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+            {
+                "method": "POST",
+                "body": "{\"chat_id\":\"241854720\",\"text\":\"Topic updated: https://t.me/xofftop/764\"}",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        ]
+    },
+    {
+        "key": "fetch",
+        "data": [
+            "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+            {
+                "method": "POST",
+                "body": "{\"chat_id\":\"241854721\",\"text\":\"Topic updated: https://t.me/xofftop/764\"}",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        ]
+    }
+]

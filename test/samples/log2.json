@@ -1,30 +1,24 @@
 [
     {
-        "in": [
-            "db",
+        "key": "db",
+        "data": [
+            "INSERT INTO subscriptions (document) VALUES (?)",
             [
-                "INSERT INTO subscriptions (document) VALUES (?)",
-                [
-                    "{\"topic\":\"elm\",\"user_id\":241854720}"
-                ]
+                "{\"topic\":\"elm\",\"user_id\":241854720}"
             ]
-        ],
-        "out": []
+        ]
     },
     {
-        "in": [
-            "fetch",
-            [
-                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-                {
-                    "method": "POST",
-                    "body": "{\"chat_id\":241854720,\"text\":\"Subscription created\"}",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    }
+        "key": "fetch",
+        "data": [
+            "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+            {
+                "method": "POST",
+                "body": "{\"chat_id\":241854720,\"text\":\"Subscription created\"}",
+                "headers": {
+                    "Content-Type": "application/json"
                 }
-            ]
-        ],
-        "out": {}
+            }
+        ]
     }
 ]

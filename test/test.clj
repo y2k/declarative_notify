@@ -11,27 +11,29 @@
       (->
        (fs/readFile path "utf-8")
        (.then
-        (fn [cofx_log_json]
-          (let [cofx_log1 (JSON/parse cofx_log_json)
-                fx_log (JSON/parse log_json)
-                log (.reverse (.concat cofx_log1 fx_log))]
+        (fn [event_json]
+          (let [event (JSON/parse event_json)
+                fx_log []
+                log (.reverse (JSON/parse log_json))]
             (defn- attach_test_effect [world name]
               (e/attach_eff
                world name
                (fn [args]
+                ;;  (println "LOG, args: " args)
                  (if (> log.length 0)
                    (let [x (.pop log)]
-                     (if (= (JSON/stringify x.in) (JSON/stringify [name args]))
+                    ;;  (println "FIXME2\n" (JSON/stringify [x.key x.data]) "\n" (JSON/stringify [name args]))
+                     (if (= (JSON/stringify [x.key x.data]) (JSON/stringify [name args]))
                        (Promise/resolve x.out)
-                       (FIXME "Log: " path "\n" (JSON/stringify x.in) "\n!=\n" (JSON/stringify [name args]) "\n")))
+                       (FIXME "Log: " (.replace path "cofx." "") "\n" (JSON/stringify [x.key x.data]) "\n!=\n" (JSON/stringify [name args]) "\n")))
                    (do
-                     (.push fx_log {:in [name args] :out (if (= :db name) [] {})})
-                     (Promise/resolve {}))))))
+                     (.push fx_log {:key name :data args})
+                     (Promise/resolve null))))))
             (->
-             (app/handle (let [x (.pop log)] x.out))
-             (e/run_effect (-> {} (attach_test_effect :fetch) (attach_test_effect :db)))
+             (app/handle_event event.key event.data)
+             (e/run_effect (-> {} (attach_test_effect :dispatch) (attach_test_effect :fetch) (attach_test_effect :db)))
              (.then (fn []
-                      (if (= (JSON/parse log_json) 0)
+                      (if (= log_json "[]")
                         (fs/writeFile (.replace path "cofx." "") (JSON/stringify fx_log null 4))
                         (if (= log.length 0) null
                             (FIXME "Log not consumed: " path "\n" (JSON/stringify (.toReversed log) null 2)))))))))))))))
@@ -43,5 +45,5 @@
     (fn [files]
       (->
        files
-       (.filter (fn [name] (.test (RegExp. "^cofx.log\\d+\\.json$") name)))
+       (.filter (fn [name] (.test (RegExp. "^cofx.log[\\d_]+\\.json$") name)))
        (.map (fn [name] (assert (str path name)))))))))

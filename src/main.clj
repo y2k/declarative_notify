@@ -6,6 +6,9 @@
 (defn- eff_fetch [url props]
   (fn [env] (env/perform :fetch [url props])))
 
+(defn- eff_dispatch [key data]
+  (fn [env] (env/perform :dispatch [key data])))
+
 (defn- send_message [data]
   (eff_fetch
    "https://api.telegram.org/bot~TG_TOKEN~/sendMessage"
@@ -30,7 +33,8 @@
            _ (= update?.message?.text "/ls")]
     (->
      (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
-     (e/then (fn [items] (handle_ls_send user_id items))))
+     (e/then (fn [items]
+               (eff_dispatch :handle_ls [user_id items]))))
     null))
 
 (defn- handle_sub [update]
@@ -53,7 +57,7 @@
       (send_message {:chat_id user_id :text "Subscriptions deleted"})])
     null))
 
-(defn handle_chat_update_send [message_id text r]
+(defn- handle_chat_update_send [message_id text r]
   (defn- get_unique_words [text]
     (->
      text
@@ -86,20 +90,25 @@
            _ (= chat_id -1002110559199)]
     (->
      (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
-     (e/then (fn [r] (handle_chat_update_send message_id text r))))
+     (e/then (fn [r]
+               (eff_dispatch :handle_chat_update [message_id text r]))))
     (FIXME (JSON/stringify update))))
 
-(defn handle [update]
-  (if-let [user_id update?.message?.from?.id
-           chat_id update?.message?.chat?.id]
-    (if (= chat_id user_id)
-      (or
-       (handle_ls update)
-       (handle_sub update)
-       (handle_rm update)
-       (e/pure null))
-      (handle_chat_update update))
-    (FIXME (JSON/stringify update))))
+(defn handle_event [key data]
+  (cond
+    (= key :telegram) (if-let [user_id data?.message?.from?.id
+                               chat_id data?.message?.chat?.id]
+                        (if (= chat_id user_id)
+                          (or
+                           (handle_ls data)
+                           (handle_sub data)
+                           (handle_rm data)
+                           (e/pure null))
+                          (handle_chat_update data))
+                        (FIXME (JSON/stringify data)))
+    (= key :handle_ls) (handle_ls_send (.at data 0) (.at data 1))
+    (= key :handle_chat_update) (handle_chat_update_send (.at data 0) (.at data 1) (.at data 2))
+    :else (FIXME key data)))
 
 ;; Infrastructure
 
@@ -109,23 +118,26 @@
     (->
      (.json request)
      (.then (fn [update]
-              (println (JSON/stringify update null 2))
-              (e/run_effect
-               (handle update)
-               (->
-                env
-                (e/attach_eff :db
-                              (fn [args]
-                                (let [sql (.at args 0) sql_args (.at args 1)]
-                                  (->
-                                   env.DB (.prepare sql) (.bind (spread sql_args)) .run
-                                   (.then (fn [x] x.results))))))
-                (e/attach_eff :fetch
-                              (fn [args]
-                                (let [url (.at args 0) props (.at args 1)]
-                                  (->
-                                   (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
-                                   (fetch props)))))
-                e/attach_log))))
+              (let [world (->
+                           env
+                           e/attach_empty_effect_handler
+                           (e/attach_eff :db
+                                         (fn [args]
+                                           (let [sql (.at args 0) sql_args (.at args 1)]
+                                             (->
+                                              env.DB (.prepare sql) (.bind (spread sql_args)) .run
+                                              (.then (fn [x] x.results))))))
+                           (e/attach_eff :fetch
+                                         (fn [args]
+                                           (let [url (.at args 0) props (.at args 1)]
+                                             (->
+                                              (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
+                                              (fetch props)))))
+                           (e/attach_eff :dispatch
+                                         (fn [args]
+                                           (let [key (.at args 0) data (.at args 1)]
+                                             (e/run_effect (handle_event key data) world))))
+                           e/attach_log)]
+                (e/run_effect (handle_event :telegram update) world))))
      (.catch console.error)
      (.then (fn [] (Response. (str "OK - " (Date.)))))))})

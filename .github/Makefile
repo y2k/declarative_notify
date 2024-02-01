@@ -1,4 +1,4 @@
-run:
+run: hook
 	wrangler dev
 
 build:

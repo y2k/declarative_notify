@@ -1,31 +1,25 @@
 [
     {
-        "in": [
-            "db",
+        "key": "db",
+        "data": [
+            "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?",
             [
-                "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?",
-                [
-                    "elm",
-                    241854720
-                ]
+                "elm",
+                241854720
             ]
-        ],
-        "out": []
+        ]
     },
     {
-        "in": [
-            "fetch",
-            [
-                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-                {
-                    "method": "POST",
-                    "body": "{\"chat_id\":241854720,\"text\":\"Subscriptions deleted\"}",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    }
+        "key": "fetch",
+        "data": [
+            "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+            {
+                "method": "POST",
+                "body": "{\"chat_id\":241854720,\"text\":\"Subscriptions deleted\"}",
+                "headers": {
+                    "Content-Type": "application/json"
                 }
-            ]
-        ],
-        "out": {}
+            }
+        ]
     }
 ]

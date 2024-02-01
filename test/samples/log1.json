@@ -1,18 +1,21 @@
 [
     {
-        "in": [
-            "fetch",
+        "key": "db",
+        "data": [
+            "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
             [
-                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-                {
-                    "method": "POST",
-                    "body": "{\"chat_id\":241854720,\"text\":\"Your subscriptions:\\n- elm2\\n- elm3\\n- elm2\\n- true\"}",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    }
-                }
+                241854720
             ]
-        ],
-        "out": {}
+        ]
+    },
+    {
+        "key": "dispatch",
+        "data": [
+            "handle_ls",
+            [
+                241854720,
+                null
+            ]
+        ]
     }
 ]

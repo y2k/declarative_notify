@@ -1,34 +1,20 @@
 [
     {
-        "in": [
-            "fetch",
-            [
-                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-                {
-                    "method": "POST",
-                    "body": "{\"chat_id\":\"241854720\",\"text\":\"Topic updated: https://t.me/xofftop/764\"}",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    }
-                }
-            ]
-        ],
-        "out": {}
+        "key": "db",
+        "data": [
+            "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic",
+            []
+        ]
     },
     {
-        "in": [
-            "fetch",
+        "key": "dispatch",
+        "data": [
+            "handle_chat_update",
             [
-                "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-                {
-                    "method": "POST",
-                    "body": "{\"chat_id\":\"241854721\",\"text\":\"Topic updated: https://t.me/xofftop/764\"}",
-                    "headers": {
-                        "Content-Type": "application/json"
-                    }
-                }
+                764,
+                "Он позволяет: позволяет Избежать, лишних. рекомпозиции;, Elm2 если у тебя Будет. одно, и то же значениЕ (например, true) присваиваться несколько раз подряд",
+                null
             ]
-        ],
-        "out": {}
+        ]
     }
 ]
