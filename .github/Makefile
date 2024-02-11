@@ -2,12 +2,14 @@ run: hook
 	wrangler dev
 
 test: build
-	clj2js ../test/test.clj > _build_/test.js && clear && \
-	node --env-file=.dev.vars _build_/test.js
+	clear && clj2js ../test/test.clj > bin/test.js && \
+	node --env-file=.dev.vars bin/test.js
 
 build:
-	clj2js ../src/main.clj > _build_/main.js && clear && \
-	clj2js ../src/vendor/effects.clj > _build_/vendor/effects.js && clear
+	clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
 
 migrate:
 	wrangler d1 execute DECLARATIVE_NOTIFY_BOT_DB --local --file=schema.sql

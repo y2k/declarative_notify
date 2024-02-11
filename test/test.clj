@@ -47,7 +47,7 @@
                         (if (= log.length 0) null
                             (FIXME "Log not consumed: " path "\n" (JSON/stringify (.toReversed log) null 2)))))))))))))))
 
-(let [path "../test/samples/input/"]
+(let [path "../test/input/"]
   (->
    (fs/readdir path)
    (.then

@@ -1,5 +1,4 @@
-(ns app
-  (:require [vendor.effects :as e]))
+(ns app (:require [vendor.effects :as e]))
 
 (defn- eff_db [sql args]
   (fn [env] (env/perform :db [sql args])))
@@ -19,7 +18,7 @@
        (let [r (.match text (RegExp. regex))]
          (and r (.at r 1)))))
 
-(defn- handle_ls_send [user_id items]
+(defn- handle_ls_send [[user_id items]]
   (send_message
    {:chat_id user_id
     :text (->
@@ -55,7 +54,7 @@
       (send_message {:chat_id user_id :text "Subscriptions deleted"})])
     null))
 
-(defn- handle_chat_update_send [message_id text r]
+(defn- handle_chat_update_send [[message_id text r]]
   (defn- get_unique_words [text]
     (->
      text
@@ -104,8 +103,8 @@
                    (e/pure null))
                   (handle_chat_update data))
                 (FIXME (JSON/stringify data)))
-    :handle_ls (handle_ls_send (.at data 0) (.at data 1))
-    :handle_chat_update (handle_chat_update_send (.at data 0) (.at data 1) (.at data 2))
+    :handle_ls (handle_ls_send data)
+    :handle_chat_update (handle_chat_update_send data)
     (FIXME key data)))
 
 ;; Infrastructure
@@ -120,21 +119,18 @@
                            env
                            e/attach_empty_effect_handler
                            (e/attach_eff :db
-                                         (fn [args]
-                                           (let [sql (.at args 0) sql_args (.at args 1)]
-                                             (->
-                                              env.DB (.prepare sql) (.bind (spread sql_args)) .run
-                                              (.then (fn [x] x.results))))))
+                                         (fn [[sql sql_args]]
+                                           (->
+                                            env.DB (.prepare sql) (.bind (spread sql_args)) .run
+                                            (.then (fn [x] x.results)))))
                            (e/attach_eff :fetch
-                                         (fn [args]
-                                           (let [url (.at args 0) props (.at args 1)]
-                                             (->
-                                              (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
-                                              (fetch props)))))
+                                         (fn [[url props]]
+                                           (->
+                                            (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
+                                            (fetch props))))
                            (e/attach_eff :dispatch
-                                         (fn [args]
-                                           (let [key (.at args 0) data (.at args 1)]
-                                             (e/run_effect (handle_event key data) world))))
+                                         (fn [[key data]]
+                                           (e/run_effect (handle_event key data) world)))
                            e/attach_log)]
                 (e/run_effect (handle_event :telegram update) world))))
      (.catch console.error)
