@@ -13,7 +13,13 @@
             [
                 764,
                 "Он позволяет: позволяет Избежать, лишних. рекомпозиции;, Elm2 если у тебя Будет. одно, и то же значениЕ (например, true) присваиваться несколько раз подряд",
-                null
+                [
+                    "db",
+                    [
+                        "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic",
+                        []
+                    ]
+                ]
             ]
         ]
     }

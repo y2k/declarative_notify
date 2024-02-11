@@ -14,7 +14,15 @@
             "handle_ls",
             [
                 241854720,
-                null
+                [
+                    "db",
+                    [
+                        "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
+                        [
+                            241854720
+                        ]
+                    ]
+                ]
             ]
         ]
     }

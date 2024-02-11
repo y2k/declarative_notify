@@ -1,13 +1,11 @@
-(require [vendor.effects :as e])
+(ns app
+  (:require [vendor.effects :as e]))
 
 (defn- eff_db [sql args]
   (fn [env] (env/perform :db [sql args])))
 
 (defn- eff_fetch [url props]
   (fn [env] (env/perform :fetch [url props])))
-
-(defn- eff_dispatch [key data]
-  (fn [env] (env/perform :dispatch [key data])))
 
 (defn- send_message [data]
   (eff_fetch
@@ -34,7 +32,7 @@
     (->
      (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
      (e/then (fn [items]
-               (eff_dispatch :handle_ls [user_id items]))))
+               (e/dispatch :handle_ls [user_id items]))))
     null))
 
 (defn- handle_sub [update]
@@ -91,24 +89,24 @@
     (->
      (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
      (e/then (fn [r]
-               (eff_dispatch :handle_chat_update [message_id text r]))))
+               (e/dispatch :handle_chat_update [message_id text r]))))
     (FIXME (JSON/stringify update))))
 
 (defn handle_event [key data]
-  (cond
-    (= key :telegram) (if-let [user_id data?.message?.from?.id
-                               chat_id data?.message?.chat?.id]
-                        (if (= chat_id user_id)
-                          (or
-                           (handle_ls data)
-                           (handle_sub data)
-                           (handle_rm data)
-                           (e/pure null))
-                          (handle_chat_update data))
-                        (FIXME (JSON/stringify data)))
-    (= key :handle_ls) (handle_ls_send (.at data 0) (.at data 1))
-    (= key :handle_chat_update) (handle_chat_update_send (.at data 0) (.at data 1) (.at data 2))
-    :else (FIXME key data)))
+  (case key
+    :telegram (if-let [user_id data?.message?.from?.id
+                       chat_id data?.message?.chat?.id]
+                (if (= chat_id user_id)
+                  (or
+                   (handle_ls data)
+                   (handle_sub data)
+                   (handle_rm data)
+                   (e/pure null))
+                  (handle_chat_update data))
+                (FIXME (JSON/stringify data)))
+    :handle_ls (handle_ls_send (.at data 0) (.at data 1))
+    :handle_chat_update (handle_chat_update_send (.at data 0) (.at data 1) (.at data 2))
+    (FIXME key data)))
 
 ;; Infrastructure
 

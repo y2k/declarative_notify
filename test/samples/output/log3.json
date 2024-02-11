@@ -2,9 +2,10 @@
     {
         "key": "db",
         "data": [
-            "INSERT INTO subscriptions (document) VALUES (?)",
+            "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?",
             [
-                "{\"topic\":\"elm\",\"user_id\":241854720}"
+                "elm",
+                241854720
             ]
         ]
     },
@@ -14,7 +15,10 @@
             "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
             {
                 "method": "POST",
-                "body": "{\"chat_id\":241854720,\"text\":\"Subscription created\"}",
+                "body": {
+                    "chat_id": 241854720,
+                    "text": "Subscriptions deleted"
+                },
                 "headers": {
                     "Content-Type": "application/json"
                 }

@@ -1,5 +1,8 @@
 (defn run_effect [fx a] (fx a))
 
+(defn call [key data]
+  (fn [env] (env/perform key data)))
+
 (defn pure [x]
   (fn [env] (Promise/resolve x)))
 
@@ -15,6 +18,24 @@
        pr
        (fn [r] (let [r2 (f r)]
                  (r2 env)))))))
+
+(defn seq [fx fx2]
+  (fn [env]
+    (let [pr (fx env)]
+      (.then
+       pr
+       (fn [r1] (.then (fx2 env) (fn [r2] [r1 r2])))))))
+
+;;
+
+(defn dispatch [key data]  (call :dispatch [key data]))
+(defn fork     [fx]        (call :fork     fx))
+(defn sleep    [timeout]   (call :sleep    timeout))
+
+(defn broadcast [key fx f]
+  (then fx (fn [json] (dispatch key (f json)))))
+
+;;
 
 (defn attach_empty_effect_handler [world]
   (assoc
