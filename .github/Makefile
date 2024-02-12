@@ -1,5 +1,8 @@
 run: hook
-	wrangler dev
+	wrangler dev --test-scheduled
+
+schedule:
+	clear && curl "http://localhost:8787/__scheduled?cron=*+*+*+*+*"
 
 test: build
 	clear && clj2js ../test/test.clj > bin/test.js && \

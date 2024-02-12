@@ -109,8 +109,57 @@
 
 ;; Infrastructure
 
+(defn- parse_tg_feed [url]
+  (let [items []]
+    (->
+     (fetch url)
+     (.then (fn [res]
+              (let [text_builder (atom "") global_tb (atom "")]
+                (->
+                 (HTMLRewriter.)
+                 (.on "div.tgme_widget_message *"
+                      {:element (fn [element]
+                                  (let [tag element.tagName clazz (or (.getAttribute element "class") "")]
+                                    (if (and (= tag "div") (.startsWith clazz "tgme_widget_message_bubble"))
+                                      (do
+                                        (reset global_tb "")
+                                        (.push items {})
+                                        (.onEndTag element
+                                                   (fn []
+                                                     (set! (.-text (.at items -1)) (deref global_tb))
+                                                     (reset global_tb "")))) null)
+                                    (if (and (= tag "a") (.startsWith clazz "tgme_widget_message_date"))
+                                      (if (= 0 items.length) null
+                                          (set! (.-url (.at items -1)) (.getAttribute element "href"))) null)))
+                       :text (fn [t]
+                               (reset text_builder (str (deref text_builder) t.text))
+                               (if t.lastInTextNode
+                                 (do
+                                   (if (not= "" (.trim (deref text_builder)))
+                                     (reset global_tb (str (deref global_tb) (deref text_builder)))
+                                     null)
+                                   (reset text_builder ""))
+                                 null))})
+                 (.transform res)))))
+     (.then (fn [x] (.arrayBuffer x)))
+     (.then (fn [] items)))))
+
 (export-default
- {:fetch
+ {:scheduled
+  (fn [event env ctx]
+    (println "Started")
+    (.waitUntil
+     ctx
+     (->
+;; "http://localhost:8000/razborfeed.html"
+;; "http://localhost:8000/theaftertimes.html"
+;; "https://t.me/s/razborfeed"
+;; "https://t.me/s/bracket_devlog"
+      "https://t.me/s/izpodshtorki"
+      parse_tg_feed
+      (.then (fn [items] (println "RESULT: " items)))
+      (.catch console.error))))
+  :fetch
   (fn [request env ctx]
     (->
      (.json request)
