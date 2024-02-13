@@ -155,7 +155,7 @@
                  (.on "entry"
                       {:element (fn [element]
                                   ;; (println "=== Element ===")
-                                  (.push items {}))})
+                                  (.push items {:links []}))})
                  (.on "entry *"
                       {:element (fn [element]
                                   ;; (println "child:" element.tagName (Array/from element.attributes))
@@ -169,10 +169,18 @@
                                     :updated (update_text :updated)
                                     :id (update_text :id)
                                     :title (update_text :title)
-                                    :content (update_text :content)
                                     null))
                        :text (fn [t]
                                (reset text_buffer (str (deref text_buffer) t.text)))})
+                 (.on "entry content a"
+                      {:element (fn [element]
+                                  ;; (println "ITEMS:" items)
+                                  (.push (.-links (.at items -1)) {:href (.getAttribute element "href")})
+                                  (reset text_buffer "")
+                                  (.onEndTag element
+                                             (fn []
+                                               (set! (.-name (.at (.-links (.at items -1)) -1)) (deref text_buffer))
+                                               (reset text_buffer ""))))})
                  (.transform res)))))
      (.then (fn [x] (.arrayBuffer x)))
      (.then (fn [] items)))))
@@ -192,7 +200,7 @@
 ;; parse_tg_feed
       "https://developer.android.com/feeds/androidx-release-notes.xml"
       parse_rss_feed
-      (.then (fn [items] (println "=== RESULT ===" items)))
+      (.then (fn [items] (println "=== RESULT ===" (JSON/stringify items))))
       (.catch console.error))))
   :fetch
   (fn [request env ctx]

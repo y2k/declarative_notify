@@ -1,6 +1,17 @@
 run: hook
 	wrangler dev --test-scheduled
 
+test_run:
+	clear
+	clj2js prelude > bin/prelude.js
+	clear
+	clj2js ../src/main.test.clj > bin/main.test.js
+	pkill -2 -f wrangler || true
+	nohup wrangler dev bin/main.test.js &
+	clear && sleep 1
+	clear && curl http://localhost:8787/
+	@pkill -2 -f wrangler
+
 schedule:
 	clear && curl "http://localhost:8787/__scheduled?cron=*+*+*+*+*"
 
@@ -23,4 +34,4 @@ hook:
 	source .dev.vars ; \
 	curl "https://api.telegram.org/bot$$TG_TOKEN/setWebhook?max_connections=1&drop_pending_updates=true&secret_token=$$TG_SECRET_TOKEN&url=$$NGROK_URL"
 
-.PHONY: run test build migrate hook
+.PHONY: run test_run test build migrate hook

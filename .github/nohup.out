@@ -1,0 +1,214 @@
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ [b open a       [d open        [l turn off local   [c] clear       [x to     │
+│   browser,        Devtools,      mode,                console,       exit    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[G⎔ Starting local server...
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ [b open a       [d open        [l turn off local   [c] clear       [x to     │
+│   browser,        Devtools,      mode,                console,       exit    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+╭──────────────────────────────────────────────────────────────────────────────╮
+│ [b open a       [d open        [l turn off local   [c] clear       [x to     │
+│   browser,        Devtools,      mode,                console,       exit    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (613ms)
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (511ms)
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (690ms)
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (561ms)
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (480ms)
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUncaught ReferenceError: items is not defined[0m
+
+      at element (file:///Users/igor/Projects/declarative_notify/.github/bin/main.test.js:4:234)
+
+
+
+[2K[1A[2K[G[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mUncaught (async) ReferenceError: items is not defined[0m
+
+
+
+[2K[1A[2K[G[wrangler:err] ReferenceError: items is not defined
+
+[2K[1A[2K[G[wrangler:inf] GET / 500 Internal Server Error (379ms)
+
+[2K[1A[2K[G🪵  Logs were written to "/Users/igor/.wrangler/logs/wrangler-2024-02-13_18-36-32_257.log"
+
+⎔ Shutting down local server...
+ ⛅️ wrangler 3.19.0 (update available 3.28.2)
+---------------------------------------------
+Running custom build: make build
+clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/main.clj > bin/main.js && \
+	clear && clj2js prelude > bin/vendor/prelude.js && \
+	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+[3J[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mEnabling Node.js compatibility mode for built-ins and globals. This is experimental and has serious tradeoffs. Please see https://github.com/ionic-team/rollup-plugin-node-polyfills/ for more details.[0m
+
+
+Using vars defined in .dev.vars
+Your worker has access to the following bindings:
+- D1 Databases:
+  - DB: DECLARATIVE_NOTIFY_BOT_DB (38f1f495-2567-4eb6-bba1-9bfcb76e29f9)
+- Vars:
+  - TG_TOKEN: "(hidden)"
+  - TG_SECRET_TOKEN: "(hidden)"
+⎔ Starting local server...
+
+[2K[1A[2K[G[wrangler:inf] Ready on http://localhost:8787
+
+[2K[1A[2K[G[wrangler:inf] GET / 200 OK (535ms)
+
+⎔ Shutting down local server...
