@@ -144,6 +144,39 @@
      (.then (fn [x] (.arrayBuffer x)))
      (.then (fn [] items)))))
 
+(defn- parse_rss_feed [url]
+  (let [items []]
+    (->
+     (fetch url)
+     (.then (fn [res]
+              (let [text_buffer (atom "")]
+                (->
+                 (HTMLRewriter.)
+                 (.on "entry"
+                      {:element (fn [element]
+                                  ;; (println "=== Element ===")
+                                  (.push items {}))})
+                 (.on "entry *"
+                      {:element (fn [element]
+                                  ;; (println "child:" element.tagName (Array/from element.attributes))
+                                  (defn- update_text [key]
+                                    (reset text_buffer "")
+                                    (.onEndTag element (fn []
+                                                         (.push items (assoc (.pop items) key (deref text_buffer)))
+                                                         (reset text_buffer ""))))
+                                  (case element.tagName
+                                    :link (set! (.-url (.at items -1)) (.getAttribute element "href"))
+                                    :updated (update_text :updated)
+                                    :id (update_text :id)
+                                    :title (update_text :title)
+                                    :content (update_text :content)
+                                    null))
+                       :text (fn [t]
+                               (reset text_buffer (str (deref text_buffer) t.text)))})
+                 (.transform res)))))
+     (.then (fn [x] (.arrayBuffer x)))
+     (.then (fn [] items)))))
+
 (export-default
  {:scheduled
   (fn [event env ctx]
@@ -155,9 +188,11 @@
 ;; "http://localhost:8000/theaftertimes.html"
 ;; "https://t.me/s/razborfeed"
 ;; "https://t.me/s/bracket_devlog"
-      "https://t.me/s/izpodshtorki"
-      parse_tg_feed
-      (.then (fn [items] (println "RESULT: " items)))
+;; "https://t.me/s/izpodshtorki"
+;; parse_tg_feed
+      "https://developer.android.com/feeds/androidx-release-notes.xml"
+      parse_rss_feed
+      (.then (fn [items] (println "=== RESULT ===" items)))
       (.catch console.error))))
   :fetch
   (fn [request env ctx]
