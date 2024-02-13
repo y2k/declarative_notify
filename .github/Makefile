@@ -1,14 +1,11 @@
 run: hook
 	wrangler dev --test-scheduled
 
-test_run:
-	clear
-	clj2js prelude > bin/prelude.js
-	clear
-	clj2js ../src/main.test.clj > bin/main.test.js
+test_run: build
+	clear && clj2js ../src/main.test.clj > bin/main.test.js
 	pkill -2 -f wrangler || true
 	nohup wrangler dev bin/main.test.js &
-	clear && sleep 1
+	clear && sleep 2
 	clear && curl http://localhost:8787/
 	@pkill -2 -f wrangler
 
@@ -21,6 +18,7 @@ test: build
 
 build:
 	clear && clj2js prelude > bin/prelude.js && \
+	clear && clj2js ../src/xml_parser.clj > bin/xml_parser.js && \
 	clear && clj2js ../src/main.clj > bin/main.js && \
 	clear && clj2js prelude > bin/vendor/prelude.js && \
 	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
