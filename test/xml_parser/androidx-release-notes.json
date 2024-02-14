@@ -1,0 +1,1974 @@
+[
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.3.0-beta01",
+                "name": "Media3 Version 1.3.0-beta01"
+            }
+        ],
+        "title": "February 7, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#february_7_2024",
+        "updated": "2024-02-07T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#february_7_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.9.0-alpha03",
+                "name": "Activity Version 1.9.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.8.0-beta02",
+                "name": "Browser Version 1.8.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.1",
+                "name": "Compose Animation Version 1.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.7.0-alpha02",
+                "name": "Compose Animation Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.9",
+                "name": "Compose Compiler Version 1.5.9"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.1",
+                "name": "Compose Foundation Version 1.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.7.0-alpha02",
+                "name": "Compose Foundation Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.1",
+                "name": "Compose Material Version 1.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.7.0-alpha02",
+                "name": "Compose Material Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0",
+                "name": "Compose Material 3 Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha06",
+                "name": "Compose Material 3 Adaptive Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-navigation-1.0.0-alpha03",
+                "name": "Compose Material 3 Adaptive Navigation Version 1.0.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.1",
+                "name": "Compose Runtime Version 1.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.7.0-alpha02",
+                "name": "Compose Runtime Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.1",
+                "name": "Compose UI Version 1.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.7.0-alpha02",
+                "name": "Compose UI Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.13.0-alpha05",
+                "name": "Core Core-Ktx Core-Testing Version 1.13.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#core-remoteviews-1.1.0-alpha01",
+                "name": "Core-RemoteViews Version 1.1.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha10",
+                "name": "Fragment Version 1.7.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/glance#1.1.0-alpha01",
+                "name": "Glance Version 1.1.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/glance#1.0.0-alpha06",
+                "name": "Glance Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#1.0.0-alpha05",
+                "name": "Graphics-Shapes Graphics-Shapes-Android Graphics-Shapes-Desktop Version 1.0.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.2.0-rc01",
+                "name": "Hilt Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/mediarouter#1.7.0-alpha02",
+                "name": "Mediarouter Version 1.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.8.0-alpha02",
+                "name": "Navigation Version 2.8.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.7",
+                "name": "Navigation Version 2.7.7"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/paging#3.3.0-alpha03",
+                "name": "Paging Version 3.3.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-tools#1.0.0-alpha07",
+                "name": "Privacysandbox Tools Version 1.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/profileinstaller#1.4.0-alpha01",
+                "name": "ProfileInstaller Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test-uiautomator#2.3.0-rc01",
+                "name": "Test Uiautomator Version 2.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.4.0-alpha02",
+                "name": "Wear Compose Version 1.4.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha17",
+                "name": "Wear Compose Version 1.0.0-alpha17"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0",
+                "name": "Wear ProtoLayout Version 1.1.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0",
+                "name": "Wear Tiles Version 1.3.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.3.0-alpha01",
+                "name": "Wear Watchface Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.11.0-alpha01",
+                "name": "Webkit Version 1.11.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.3.0-alpha02",
+                "name": "Window Version 1.3.0-alpha02"
+            }
+        ],
+        "title": "February 7, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#february_7_2024_2",
+        "updated": "2024-02-07T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#february_7_2024_2"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#annotation-1.1.0-alpha03",
+                "name": "Test Annotation Version 1.1.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#core-1.6.0-alpha05",
+                "name": "Test Core Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#espresso-3.6.0-alpha03",
+                "name": "Test Espresso Version 3.6.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#espresso_device-1.0.0-alpha08",
+                "name": "Test Espresso Device Version 1.0.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#junit-1.2.0-alpha03",
+                "name": "Test JUnit Extensions Version 1.2.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#truth-1.6.0-alpha03",
+                "name": "Test Truth Extensions Version 1.6.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#monitor-1.7.0-alpha04",
+                "name": "Test Monitor Version 1.7.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#runner-1.6.0-alpha06",
+                "name": "Test Runner Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#rules-1.6.0-alpha03",
+                "name": "Test Rules Version 1.6.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#services-1.5.0-alpha03",
+                "name": "Test Services Version 1.5.0-alpha03"
+            }
+        ],
+        "title": "January 26, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#january_26_2024",
+        "updated": "2024-01-26T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#january_26_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.9.0-alpha02",
+                "name": "Activity Version 1.9.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.4.0",
+                "name": "Annotation-Experimental Version 1.4.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.3",
+                "name": "Benchmark Version 1.2.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.4.0-alpha04",
+                "name": "Camera Version 1.4.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0",
+                "name": "Collection Version 1.4.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0",
+                "name": "Compose Animation Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.7.0-alpha01",
+                "name": "Compose Animation Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0",
+                "name": "Compose Foundation Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.7.0-alpha01",
+                "name": "Compose Foundation Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0",
+                "name": "Compose Material Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.7.0-alpha01",
+                "name": "Compose Material Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-rc01",
+                "name": "Compose Material 3 Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha05",
+                "name": "Compose Material 3 Adaptive Version 1.0.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0",
+                "name": "Compose Runtime Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.7.0-alpha01",
+                "name": "Compose Runtime Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0",
+                "name": "Compose UI Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.7.0-alpha01",
+                "name": "Compose UI Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.13.0-alpha04",
+                "name": "Core Core-Ktx Core-Testing Version 1.13.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core-uwb#1.0.0-alpha08",
+                "name": "Core Uwb Version 1.0.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha09",
+                "name": "Fragment Version 1.7.0-alpha09"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.2.0-beta01",
+                "name": "Hilt Version 1.2.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.8.0-alpha01",
+                "name": "Lifecycle Version 2.8.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.8.0-alpha01",
+                "name": "Navigation Version 2.8.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ads#1.1.0-beta04",
+                "name": "Privacysandbox Ads Version 1.1.0-beta04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-sdkruntime#1.0.0-alpha12",
+                "name": "Privacysandbox Sdkruntime Version 1.0.0-alpha12"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.4.0-alpha01",
+                "name": "Wear Compose Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha16",
+                "name": "Wear Compose Version 1.0.0-alpha16"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0",
+                "name": "Wear Compose Version 1.3.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-rc01",
+                "name": "Wear ProtoLayout Version 1.1.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-rc01",
+                "name": "Wear Tiles Version 1.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.2.1",
+                "name": "Wear Watchface Version 1.2.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.10.0",
+                "name": "Webkit Version 1.10.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/work#2.10.0-alpha01",
+                "name": "WorkManager Version 2.10.0-alpha01"
+            }
+        ],
+        "title": "January 24, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#january_24_2024",
+        "updated": "2024-01-24T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#january_24_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.3.0-alpha01",
+                "name": "Media3 Version 1.3.0-alpha01"
+            }
+        ],
+        "title": "January 15, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#january_15_2024",
+        "updated": "2024-01-15T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#january_15_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.1",
+                "name": "Media3 Version 1.2.1"
+            }
+        ],
+        "title": "January 11, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#january_11_2024",
+        "updated": "2024-01-11T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#january_11_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.4.0-rc01",
+                "name": "Annotation-Experimental Version 1.4.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0-rc01",
+                "name": "Collection Version 1.4.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-rc01",
+                "name": "Compose Animation Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.8",
+                "name": "Compose Compiler Version 1.5.8"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-rc01",
+                "name": "Compose Foundation Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-rc01",
+                "name": "Compose Material Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-beta02",
+                "name": "Compose Material 3 Version 1.2.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha04",
+                "name": "Compose Material 3 Adaptive Version 1.0.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-rc01",
+                "name": "Compose Runtime Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-rc01",
+                "name": "Compose UI Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.0.0",
+                "name": "Core-Performance Core-Performance-Play-Services Core-Performance-Testing Version 1.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.13.0-alpha03",
+                "name": "Core Core-Ktx Core-Testing Version 1.13.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.0-beta01",
+                "name": "Datastore Version 1.1.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha08",
+                "name": "Fragment Version 1.7.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-performance-tuner-2.0.0-beta01",
+                "name": "Games-Performance-Tuner Version 2.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#graphics-path-1.0.0-beta02",
+                "name": "Graphics-Path Version 1.0.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/health-connect#1.1.0-alpha07",
+                "name": "Health Connect Version 1.1.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0",
+                "name": "Lifecycle Version 2.7.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media2#1.3.0",
+                "name": "Media2 Version 1.3.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/metrics#1.0.0-beta01",
+                "name": "Metrics Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/transition#1.5.0-alpha06",
+                "name": "Transition Version 1.5.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/versionedparcelable#versionedparcelable-1.2.0",
+                "name": "VersionedParcelable Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-phone-interactions-1.1.0-alpha04",
+                "name": "Wear-Phone-Interactions Version 1.1.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-remote-interactions-1.1.0-alpha02",
+                "name": "Wear-Remote-Interactions Version 1.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-rc01",
+                "name": "Wear Compose Version 1.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-beta01",
+                "name": "Wear ProtoLayout Version 1.1.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-beta01",
+                "name": "Wear Tiles Version 1.3.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.10.0-rc01",
+                "name": "Webkit Version 1.10.0-rc01"
+            }
+        ],
+        "title": "January 10, 2024",
+        "id": "tag:google.com,2016:androidx-release-notes#january_10_2024",
+        "updated": "2024-01-10T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#january_10_2024"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.7",
+                "name": "Compose Compiler Version 1.5.7"
+            }
+        ],
+        "title": "December 19, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#december_19_2023",
+        "updated": "2023-12-19T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#december_19_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.2",
+                "name": "Activity Version 1.8.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#1.7.1",
+                "name": "Annotation Version 1.7.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.4.0-beta01",
+                "name": "Annotation-Experimental Version 1.4.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.3.1",
+                "name": "Camera Version 1.3.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.4.0-alpha03",
+                "name": "Camera Version 1.4.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/car-app#1.4.0-rc02",
+                "name": "Car App Version 1.4.0-rc02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-beta03",
+                "name": "Compose Animation Version 1.6.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-beta03",
+                "name": "Compose Foundation Version 1.6.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-beta03",
+                "name": "Compose Material Version 1.6.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-beta01",
+                "name": "Compose Material 3 Version 1.2.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha03",
+                "name": "Compose Material 3 Adaptive Version 1.0.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-navigation-1.0.0-alpha02",
+                "name": "Compose Material 3 Adaptive Navigation Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-beta03",
+                "name": "Compose Runtime Version 1.6.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-beta03",
+                "name": "Compose UI Version 1.6.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.0.0-rc01",
+                "name": "Core-Performance Core-Performance-Play-Services Core-Performance-Testing Version 1.0.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/credentials#1.3.0-alpha01",
+                "name": "Credentials Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/emoji2#1.5.0-alpha01",
+                "name": "Emoji2 Version 1.5.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/exifinterface#1.3.7",
+                "name": "Exifinterface Version 1.3.7"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#graphics-core-1.0.0-beta01",
+                "name": "Graphics-Core Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#1.0.0-alpha04",
+                "name": "Graphics-Shapes Graphics-Shapes-Android Graphics-Shapes-Desktop Version 1.0.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/health#health-services-client-1.1.0-alpha02",
+                "name": "Health-Services-Client Version 1.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.2.0-alpha01",
+                "name": "Hilt Version 1.2.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0-rc02",
+                "name": "Lifecycle Version 2.7.0-rc02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media2#1.3.0-rc01",
+                "name": "Media2 Version 1.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.6",
+                "name": "Navigation Version 2.7.6"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/security#security-app-authenticator-1.0.0-alpha03",
+                "name": "Security-App-Authenticator Version 1.0.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/security#security-app-authenticator-testing-1.0.0-alpha02",
+                "name": "Security-App-Authenticator-Testing Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test-uiautomator#2.3.0-beta01",
+                "name": "Test Uiautomator Version 2.3.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/versionedparcelable#versionedparcelable-1.2.0-rc01",
+                "name": "VersionedParcelable Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-beta02",
+                "name": "Wear Compose Version 1.3.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-alpha04",
+                "name": "Wear ProtoLayout Version 1.1.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-alpha04",
+                "name": "Wear Tiles Version 1.3.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.10.0-beta01",
+                "name": "Webkit Version 1.10.0-beta01"
+            }
+        ],
+        "title": "December 13, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#december_13_2023",
+        "updated": "2023-12-13T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#december_13_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.6",
+                "name": "Compose Compiler Version 1.5.6"
+            }
+        ],
+        "title": "December 6, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#december_6_2023",
+        "updated": "2023-12-06T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#december_6_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#core-1.6.0-alpha04",
+                "name": "Test Core Version 1.6.0-alpha04"
+            }
+        ],
+        "title": "December 05, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#december_05_2023",
+        "updated": "2023-12-05T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#december_05_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.2",
+                "name": "Benchmark Version 1.2.2"
+            }
+        ],
+        "title": "December 1, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#december_1_2023",
+        "updated": "2023-12-01T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#december_1_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.9.0-alpha01",
+                "name": "Activity Version 1.9.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#annotation-experimental-1.4.0-alpha01",
+                "name": "Annotation-Experimental Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/bluetooth#1.0.0-alpha02",
+                "name": "Bluetooth Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.8.0-beta01",
+                "name": "Browser Version 1.8.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0-beta02",
+                "name": "Collection Version 1.4.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-beta02",
+                "name": "Compose Animation Version 1.6.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.5",
+                "name": "Compose Compiler Version 1.5.5"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-beta02",
+                "name": "Compose Foundation Version 1.6.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-beta02",
+                "name": "Compose Material Version 1.6.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha12",
+                "name": "Compose Material 3 Version 1.2.0-alpha12"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha02",
+                "name": "Compose Material 3 Adaptive Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-beta02",
+                "name": "Compose Runtime Version 1.6.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#runtime-tracing-1.0.0-beta01",
+                "name": "Compose Runtime Tracing Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-beta02",
+                "name": "Compose UI Version 1.6.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.13.0-alpha02",
+                "name": "Core Core-Ktx Core-Testing Version 1.13.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.0-alpha07",
+                "name": "Datastore Version 1.1.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha07",
+                "name": "Fragment Version 1.7.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#3.0.0-beta01",
+                "name": "Games-Activity Games-Text-Input Version 3.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-memory-advice-2.1.0-beta01",
+                "name": "Games-Memory-Advice Version 2.1.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-performance-tuner-2.0.0-alpha07",
+                "name": "Games-Performance-Tuner Version 2.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#graphics-path-1.0.0-beta01",
+                "name": "Graphics-Path Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media#media-1.7.0",
+                "name": "Media Version 1.7.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media2#1.3.0-beta01",
+                "name": "Media2 Version 1.3.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/room#2.6.1",
+                "name": "Room Version 2.6.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#annotation-1.1.0-alpha02",
+                "name": "Test Annotation Version 1.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#core-1.6.0-alpha03",
+                "name": "Test Core Version 1.6.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#espresso-3.6.0-alpha02",
+                "name": "Test Espresso Version 3.6.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#espresso_device-1.0.0-alpha07",
+                "name": "Test Espresso Device Version 1.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#junit-1.2.0-alpha02",
+                "name": "Test JUnit Extensions Version 1.2.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#truth-1.6.0-alpha02",
+                "name": "Test Truth Extensions Version 1.6.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#monitor-1.7.0-alpha03",
+                "name": "Test Monitor Version 1.7.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#orchestrator-1.5.0-alpha02",
+                "name": "Test Orchestrator Version 1.5.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#runner-1.6.0-alpha05",
+                "name": "Test Runner Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#rules-1.6.0-alpha02",
+                "name": "Test Rules Version 1.6.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#services-1.5.0-alpha02",
+                "name": "Test Services Version 1.5.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tracing#1.2.0",
+                "name": "Tracing Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/transition#1.5.0-alpha05",
+                "name": "Transition Version 1.5.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/versionedparcelable#versionedparcelable-1.2.0-beta01",
+                "name": "VersionedParcelable Version 1.2.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-tooling-preview-1.0.0",
+                "name": "Wear-Tooling-PreView Version 1.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-alpha03",
+                "name": "Wear ProtoLayout Version 1.1.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-alpha03",
+                "name": "Wear Tiles Version 1.3.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.2.0",
+                "name": "Wear Watchface Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.10.0-alpha01",
+                "name": "Webkit Version 1.10.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.9.0",
+                "name": "Webkit Version 1.9.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/work#2.9.0",
+                "name": "WorkManager Version 2.9.0"
+            }
+        ],
+        "title": "November 29, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#november_29_2023",
+        "updated": "2023-11-29T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#november_29_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.1",
+                "name": "Activity Version 1.8.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.1",
+                "name": "Benchmark Version 1.2.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.7.0",
+                "name": "Browser Version 1.7.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.8.0-alpha01",
+                "name": "Browser Version 1.8.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0-beta01",
+                "name": "Collection Version 1.4.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-beta01",
+                "name": "Compose Animation Version 1.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-beta01",
+                "name": "Compose Foundation Version 1.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-beta01",
+                "name": "Compose Material Version 1.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha11",
+                "name": "Compose Material 3 Version 1.2.0-alpha11"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-navigation-1.0.0-alpha01",
+                "name": "Compose Material3 Adaptive Navigation 1.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#adaptive-1.0.0-alpha01",
+                "name": "Compose Material3 Adaptive 1.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-beta01",
+                "name": "Compose Runtime Version 1.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#runtime-tracing-1.0.0-alpha05",
+                "name": "Compose Runtime Tracing Version 1.0.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-beta01",
+                "name": "Compose UI Version 1.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#3.0.0-alpha01",
+                "name": "Games-Activity Games-Text-Input Version 3.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-memory-advice-2.1.0-alpha01",
+                "name": "Games-Memory-Advice Version 2.1.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-frame-pacing-2.1.0",
+                "name": "Games-Frame-Pacing Version 2.1.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#1.2.0-alpha04",
+                "name": "Leanback Leanback-Preference Version 1.2.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#leanback-grid-1.0.0-alpha03",
+                "name": "Leanback-Grid Version 1.0.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#leanback-paging-1.1.0-alpha11",
+                "name": "Leanback-Paging Version 1.1.0-alpha11"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0-rc01",
+                "name": "Lifecycle Version 2.7.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media#media-1.7.0-rc01",
+                "name": "Media Version 1.7.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media2#1.3.0-alpha01",
+                "name": "Media2 Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.0",
+                "name": "Media3 Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/mediarouter#1.7.0-alpha01",
+                "name": "Mediarouter Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-activity#1.0.0-alpha01",
+                "name": "Privacysandbox Activity Version 1.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ads#1.1.0-beta03",
+                "name": "Privacysandbox Ads Version 1.1.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-sdkruntime#1.0.0-alpha11",
+                "name": "Privacysandbox Sdkruntime Version 1.0.0-alpha11"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/versionedparcelable#versionedparcelable-1.2.0-alpha01",
+                "name": "VersionedParcelable Version 1.2.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-1.4.0-alpha01",
+                "name": "Wear Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-tooling-preview-1.0.0-rc01",
+                "name": "Wear-Tooling-PreView Version 1.0.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-beta01",
+                "name": "Wear Compose Version 1.3.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha15",
+                "name": "Wear Compose Version 1.0.0-alpha15"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-alpha02",
+                "name": "Wear ProtoLayout Version 1.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-alpha02",
+                "name": "Wear Tiles Version 1.3.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.9.0-rc01",
+                "name": "Webkit Version 1.9.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.3.0-alpha01",
+                "name": "Window Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.2.0",
+                "name": "Window Version 1.2.0"
+            }
+        ],
+        "title": "November 15, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#november_15_2023",
+        "updated": "2023-11-15T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#november_15_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.4",
+                "name": "Compose Compiler Version 1.5.4"
+            }
+        ],
+        "title": "November 7, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#november_7_2023",
+        "updated": "2023-11-07T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#november_7_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.0-rc01",
+                "name": "Media3 Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.7.0-rc01",
+                "name": "Browser Version 1.7.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/car-app#1.4.0-rc01",
+                "name": "Car App Version 1.4.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/credentials#1.2.0",
+                "name": "Credentials Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.0-alpha06",
+                "name": "Datastore Version 1.1.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.6.2",
+                "name": "Fragment Version 1.6.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-performance-tuner-2.0.0-alpha06",
+                "name": "Games-Performance-Tuner Version 2.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0",
+                "name": "Hilt Version 1.1.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/javascriptengine#1.0.0-beta01",
+                "name": "Javascriptengine Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0-beta01",
+                "name": "Lifecycle Version 2.7.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media#media-1.7.0-beta01",
+                "name": "Media Version 1.7.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.5",
+                "name": "Navigation Version 2.7.5"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test-uiautomator#2.3.0-alpha05",
+                "name": "Test Uiautomator Version 2.3.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.9.0-beta01",
+                "name": "Webkit Version 1.9.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.2.0-rc01",
+                "name": "Window Version 1.2.0-rc01"
+            }
+        ],
+        "title": "November 1, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#november_1_2023",
+        "updated": "2023-11-01T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#november_1_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.0-beta01",
+                "name": "Media3 Version 1.2.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.0",
+                "name": "Benchmark Version 1.2.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.7.0-beta01",
+                "name": "Browser Version 1.7.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.3.0",
+                "name": "Camera Version 1.3.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.4.0-alpha02",
+                "name": "Camera Version 1.4.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0-alpha02",
+                "name": "Collection Version 1.4.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.4",
+                "name": "Compose Animation Version 1.5.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-alpha08",
+                "name": "Compose Animation Version 1.6.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.5.4",
+                "name": "Compose Foundation Version 1.5.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-alpha08",
+                "name": "Compose Foundation Version 1.6.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.5.4",
+                "name": "Compose Material Version 1.5.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-alpha08",
+                "name": "Compose Material Version 1.6.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha10",
+                "name": "Compose Material 3 Version 1.2.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.5.4",
+                "name": "Compose Runtime Version 1.5.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-alpha08",
+                "name": "Compose Runtime Version 1.6.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.4",
+                "name": "Compose UI Version 1.5.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-alpha08",
+                "name": "Compose UI Version 1.6.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.13.0-alpha01",
+                "name": "Core Core-Ktx Core-Testing Version 1.13.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/health-connect#1.1.0-alpha06",
+                "name": "Health Connect Version 1.1.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0-rc01",
+                "name": "Hilt Version 1.1.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/javascriptengine#1.0.0-alpha07",
+                "name": "Javascriptengine Version 1.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0-alpha03",
+                "name": "Lifecycle Version 2.7.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-sdkruntime#1.0.0-alpha10",
+                "name": "Privacysandbox Sdkruntime Version 1.0.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ui#1.0.0-alpha07",
+                "name": "Privacysandbox Ui Version 1.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-1.4.0-alpha01",
+                "name": "RecyclerView Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/recyclerview#recyclerview-1.3.2",
+                "name": "RecyclerView Version 1.3.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/room#2.6.0",
+                "name": "Room Version 2.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.4.0",
+                "name": "Sqlite Version 2.4.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-tooling-preview-1.0.0-beta01",
+                "name": "Wear-Tooling-PreView Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-alpha08",
+                "name": "Wear Compose Version 1.3.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha14",
+                "name": "Wear Compose Version 1.0.0-alpha14"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.2.1",
+                "name": "Wear Compose Version 1.2.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-protolayout#1.1.0-alpha01",
+                "name": "Wear ProtoLayout Version 1.1.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-tiles#1.3.0-alpha01",
+                "name": "Wear Tiles Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.2.0-rc01",
+                "name": "Wear Watchface Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.9.0-alpha01",
+                "name": "Webkit Version 1.9.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.2.0-beta04",
+                "name": "Window Version 1.2.0-beta04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/work#2.9.0-rc01",
+                "name": "WorkManager Version 2.9.0-rc01"
+            }
+        ],
+        "title": "October 18, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#october_18_2023",
+        "updated": "2023-10-18T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#october_18_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.0-rc02",
+                "name": "Benchmark Version 1.2.0-rc02"
+            }
+        ],
+        "title": "October 6, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#october_6_2023",
+        "updated": "2023-10-06T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#october_6_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.0",
+                "name": "Activity Version 1.8.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/browser#1.7.0-alpha01",
+                "name": "Browser Version 1.7.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.3.0",
+                "name": "Collection Version 1.3.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.4.0-alpha01",
+                "name": "Collection Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.3",
+                "name": "Compose Animation Version 1.5.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-alpha07",
+                "name": "Compose Animation Version 1.6.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.5.3",
+                "name": "Compose Foundation Version 1.5.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-alpha07",
+                "name": "Compose Foundation Version 1.6.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.5.3",
+                "name": "Compose Material Version 1.5.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-alpha07",
+                "name": "Compose Material Version 1.6.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha09",
+                "name": "Compose Material 3 Version 1.2.0-alpha09"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.5.3",
+                "name": "Compose Runtime Version 1.5.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-alpha07",
+                "name": "Compose Runtime Version 1.6.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.3",
+                "name": "Compose UI Version 1.5.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-alpha07",
+                "name": "Compose UI Version 1.6.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-2.2.0-alpha13",
+                "name": "ConstraintLayout Version 2.2.0-alpha13"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/constraintlayout#1.1.0-alpha13",
+                "name": "ConstraintLayout-Compose ConstraintLayout-Compose-Android ConstraintLayout-Core Version 1.1.0-alpha13"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/coordinatorlayout#1.3.0-alpha02",
+                "name": "CoordinatorLayout Version 1.3.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.0.0-beta02",
+                "name": "Core-Performance Core-Performance-Play-Services Core-Performance-Testing Version 1.0.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#core-telecom-1.0.0-alpha02",
+                "name": "Core-Telecom Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/credentials#1.2.0-rc01",
+                "name": "Credentials Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha06",
+                "name": "Fragment Version 1.7.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/health-connect#1.1.0-alpha05",
+                "name": "Health Connect Version 1.1.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/hilt#1.1.0-beta01",
+                "name": "Hilt Version 1.1.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/javascriptengine#1.0.0-alpha06",
+                "name": "Javascriptengine Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.4",
+                "name": "Navigation Version 2.7.4"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ads#1.1.0-beta02",
+                "name": "Privacysandbox Ads Version 1.1.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-sdkruntime#1.0.0-alpha09",
+                "name": "Privacysandbox Sdkruntime Version 1.0.0-alpha09"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tracing#perfetto-1.0.0",
+                "name": "Tracing Perfetto Version 1.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/transition#1.5.0-alpha04",
+                "name": "Transition Version 1.5.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tv#1.0.0-alpha10",
+                "name": "Tv Version 1.0.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-alpha07",
+                "name": "Wear Compose Version 1.3.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha13",
+                "name": "Wear Compose Version 1.0.0-alpha13"
+            }
+        ],
+        "title": "October 4, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#october_4_2023",
+        "updated": "2023-10-04T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#october_4_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.0-alpha02",
+                "name": "Media3 Version 1.2.0-alpha02"
+            }
+        ],
+        "title": "September 29, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_29_2023",
+        "updated": "2023-09-29T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_29_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.2",
+                "name": "Compose Animation Version 1.5.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.5.2",
+                "name": "Compose Foundation Version 1.5.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.5.2",
+                "name": "Compose Material Version 1.5.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.5.2",
+                "name": "Compose Runtime Version 1.5.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.2",
+                "name": "Compose UI Version 1.5.2"
+            }
+        ],
+        "title": "September 27, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_27_2023",
+        "updated": "2023-09-27T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_27_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/paging#3.3.0-alpha02",
+                "name": "Paging Version 3.3.0-alpha02"
+            }
+        ],
+        "title": "September 20, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_20_2023",
+        "updated": "2023-09-20T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_20_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.0-rc01",
+                "name": "Activity Version 1.8.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.0-rc01",
+                "name": "Benchmark Version 1.2.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/bluetooth#1.0.0-alpha01",
+                "name": "Bluetooth Version 1.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.3.0-rc02",
+                "name": "Camera Version 1.3.0-rc02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.4.0-alpha01",
+                "name": "Camera Version 1.4.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/car-app#1.4.0-beta02",
+                "name": "Car App Version 1.4.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-alpha06",
+                "name": "Compose Animation Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-alpha06",
+                "name": "Compose Foundation Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-alpha06",
+                "name": "Compose Material Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.1.2",
+                "name": "Compose Material 3 Version 1.1.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha08",
+                "name": "Compose Material 3 Version 1.2.0-alpha08"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-alpha06",
+                "name": "Compose Runtime Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-alpha06",
+                "name": "Compose UI Version 1.6.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/coordinatorlayout#1.3.0-alpha01",
+                "name": "CoordinatorLayout Version 1.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/credentials#1.2.0-beta04",
+                "name": "Credentials Version 1.2.0-beta04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha05",
+                "name": "Fragment Version 1.7.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-controller-2.0.1",
+                "name": "Games-Controller Version 2.0.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-memory-advice-2.0.1",
+                "name": "Games-Memory-Advice Version 2.0.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-frame-pacing-2.1.0-rc01",
+                "name": "Games-Frame-Pacing Version 2.1.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/input#input-motionprediction-1.0.0-beta03",
+                "name": "Input-Motionprediction Version 1.0.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/mediarouter#1.6.0",
+                "name": "Mediarouter Version 1.6.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.3",
+                "name": "Navigation Version 2.7.3"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/paging#3.3.0-alpha01",
+                "name": "Paging Version 3.3.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ui#1.0.0-alpha06",
+                "name": "Privacysandbox Ui Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/room#2.6.0-rc01",
+                "name": "Room Version 2.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.4.0-rc01",
+                "name": "Sqlite Version 2.4.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tracing#perfetto-1.0.0-rc01",
+                "name": "Tracing Perfetto Version 1.0.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/transition#1.5.0-alpha03",
+                "name": "Transition Version 1.5.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-alpha06",
+                "name": "Wear Compose Version 1.3.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha12",
+                "name": "Wear Compose Version 1.0.0-alpha12"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/window#1.2.0-beta03",
+                "name": "Window Version 1.2.0-beta03"
+            }
+        ],
+        "title": "September 20, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_20_2023_2",
+        "updated": "2023-09-20T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_20_2023_2"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#core-1.6.0-alpha02",
+                "name": "Test Core Version 1.6.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#espresso-device-1.0.0-alpha06",
+                "name": "Test Espresso Device Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#monitor-1.7.0-alpha02",
+                "name": "Test Monitor Version 1.7.0-alpha02"
+            }
+        ],
+        "title": "September 18, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_18_2023",
+        "updated": "2023-09-18T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_18_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.0-beta01",
+                "name": "Activity Version 1.8.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#1.7.0",
+                "name": "Annotation Version 1.7.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/collection#1.3.0-rc01",
+                "name": "Collection Version 1.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.5.1",
+                "name": "Compose Animation Version 1.5.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-alpha05",
+                "name": "Compose Animation Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.5.1",
+                "name": "Compose Foundation Version 1.5.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-alpha05",
+                "name": "Compose Foundation Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.5.1",
+                "name": "Compose Material Version 1.5.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-alpha05",
+                "name": "Compose Material Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha07",
+                "name": "Compose Material 3 Version 1.2.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.5.1",
+                "name": "Compose Runtime Version 1.5.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-alpha05",
+                "name": "Compose Runtime Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.5.1",
+                "name": "Compose UI Version 1.5.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-alpha05",
+                "name": "Compose UI Version 1.6.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.12.0",
+                "name": "Core Core-Ktx Core-Testing Version 1.12.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#core-remoteviews-1.0.0",
+                "name": "Core-RemoteViews Version 1.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.0.0-beta01",
+                "name": "Core-Performance Core-Performance-Play-Services Core-Performance-Testing Version 1.0.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#core-splashscreen-1.1.0-alpha02",
+                "name": "Core-Splashscreen Version 1.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/datastore#1.1.0-alpha05",
+                "name": "Datastore Version 1.1.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha04",
+                "name": "Fragment Version 1.7.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#2.1.0-alpha02",
+                "name": "Games-Activity Games-Text-Input Version 2.1.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-memory-advice-2.0.0",
+                "name": "Games-Memory-Advice Version 2.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/glance#1.0.0",
+                "name": "Glance Version 1.0.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/graphics#graphics-core-1.0.0-alpha05",
+                "name": "Graphics-Core Version 1.0.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/health-connect#1.1.0-alpha04",
+                "name": "Health Connect Version 1.1.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#1.2.0-alpha03",
+                "name": "Leanback Leanback-Preference Version 1.2.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#leanback-grid-1.0.0-alpha02",
+                "name": "Leanback-Grid Version 1.0.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/leanback#leanback-paging-1.1.0-alpha10",
+                "name": "Leanback-Paging Version 1.1.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.6.2",
+                "name": "Lifecycle Version 2.6.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/lifecycle#2.7.0-alpha02",
+                "name": "Lifecycle Version 2.7.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.2",
+                "name": "Navigation Version 2.7.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/paging#3.2.1",
+                "name": "Paging Version 3.2.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-tools#1.0.0-alpha06",
+                "name": "Privacysandbox Tools Version 1.0.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/transition#1.5.0-alpha02",
+                "name": "Transition Version 1.5.0-alpha02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tv#1.0.0-alpha09",
+                "name": "Tv Version 1.0.0-alpha09"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-alpha05",
+                "name": "Wear Compose Version 1.3.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha11",
+                "name": "Wear Compose Version 1.0.0-alpha11"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.2.0-beta02",
+                "name": "Wear Watchface Version 1.2.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/webkit#1.8.0",
+                "name": "Webkit Version 1.8.0"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/work#2.9.0-beta01",
+                "name": "WorkManager Version 2.9.0-beta01"
+            }
+        ],
+        "title": "September 6, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#september_6_2023",
+        "updated": "2023-09-06T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#september_6_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.0-beta05",
+                "name": "Benchmark Version 1.2.0-beta05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tracing#perfetto-1.0.0-beta03",
+                "name": "Tracing Perfetto Version 1.0.0-beta03"
+            }
+        ],
+        "title": "August 30, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#august_30_2023",
+        "updated": "2023-08-30T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#august_30_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.3",
+                "name": "Compose Compiler Version 1.5.3"
+            }
+        ],
+        "title": "August 29, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#august_29_2023",
+        "updated": "2023-08-29T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#august_29_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/activity#1.8.0-alpha07",
+                "name": "Activity Version 1.8.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/annotation#1.7.0-rc01",
+                "name": "Annotation Version 1.7.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/benchmark#1.2.0-beta04",
+                "name": "Benchmark Version 1.2.0-beta04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/camera#1.3.0-rc01",
+                "name": "Camera Version 1.3.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-animation#1.6.0-alpha04",
+                "name": "Compose Animation Version 1.6.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-compiler#1.5.2",
+                "name": "Compose Compiler Version 1.5.2"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.6.0-alpha04",
+                "name": "Compose Foundation Version 1.6.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material#1.6.0-alpha04",
+                "name": "Compose Material Version 1.6.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-material3#1.2.0-alpha06",
+                "name": "Compose Material 3 Version 1.2.0-alpha06"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#1.6.0-alpha04",
+                "name": "Compose Runtime Version 1.6.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-runtime#runtime-tracing-1.0.0-alpha04",
+                "name": "Compose Runtime Tracing Version 1.0.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/compose-ui#1.6.0-alpha04",
+                "name": "Compose UI Version 1.6.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core#1.0.0-alpha03",
+                "name": "Core-Performance Core-Performance-Play-Services Core-Performance-Testing Version 1.0.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/core-uwb#1.0.0-alpha07",
+                "name": "Core Uwb Version 1.0.0-alpha07"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/credentials#1.2.0-beta03",
+                "name": "Credentials Version 1.2.0-beta03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/fragment#1.7.0-alpha03",
+                "name": "Fragment Version 1.7.0-alpha03"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/games#games-performance-tuner-2.0.0-alpha05",
+                "name": "Games-Performance-Tuner Version 2.0.0-alpha05"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/mediarouter#1.6.0-rc01",
+                "name": "Mediarouter Version 1.6.0-rc01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/navigation#2.7.1",
+                "name": "Navigation Version 2.7.1"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/privacysandbox-ads#1.1.0-beta01",
+                "name": "Privacysandbox Ads Version 1.1.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/room#2.6.0-beta01",
+                "name": "Room Version 2.6.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/sqlite#2.4.0-beta01",
+                "name": "Sqlite Version 2.4.0-beta01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/tracing#perfetto-1.0.0-beta02",
+                "name": "Tracing Perfetto Version 1.0.0-beta02"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-ongoing-1.1.0-alpha01",
+                "name": "Wear-Ongoing Version 1.1.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear#wear-tooling-preview-1.0.0-alpha01",
+                "name": "Wear-Tooling-Preview Version 1.0.0-alpha01"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.3.0-alpha04",
+                "name": "Wear Compose Version 1.3.0-alpha04"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-compose#1.0.0-alpha10",
+                "name": "Wear Compose Version 1.0.0-alpha10"
+            },
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/wear-watchface#1.2.0-beta01",
+                "name": "Wear Watchface Version 1.2.0-beta01"
+            }
+        ],
+        "title": "August 23, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#august_23_2023",
+        "updated": "2023-08-23T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#august_23_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/test#runner-1.6.0-alpha04",
+                "name": "Test Runner Version 1.6.0-alpha04"
+            }
+        ],
+        "title": "August 22, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#august_22_2023",
+        "updated": "2023-08-22T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#august_22_2023"
+    },
+    {
+        "links": [
+            {
+                "href": "https://developer.android.com/jetpack/androidx/releases/media3#1.2.0-alpha01",
+                "name": "Media3 Version 1.2.0-alpha01"
+            }
+        ],
+        "title": "August 17, 2023",
+        "id": "tag:google.com,2016:androidx-release-notes#august_17_2023",
+        "updated": "2023-08-17T00:00:00+00:00",
+        "url": "https://developer.android.com/jetpack/androidx/versions/all-channel#august_17_2023"
+    }
+]

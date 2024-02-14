@@ -33,21 +33,19 @@
      (.then (fn [x] (.arrayBuffer x)))
      (.then (fn [] items)))))
 
-(defn parse_rss_feed [url limit]
+(defn parse_rss_feed [body limit]
   (let [items []]
     (->
-     (fetch url)
+     (Promise/resolve (Response. body))
      (.then (fn [res]
               (let [text_buffer (atom "")]
                 (->
                  (HTMLRewriter.)
                  (.on "entry"
                       {:element (fn [element]
-                                    ;; (println "=== Element ===")
                                   (.push items {:links []}))})
                  (.on "entry *"
                       {:element (fn [element]
-                                    ;; (println "child:" element.tagName (Array/from element.attributes))
                                   (defn- update_text [key]
                                     (reset text_buffer "")
                                     (.onEndTag element (fn []

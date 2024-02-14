@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Полезняшки от &quot;Разбора Полетов&quot; – Telegram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible"
+     content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    
+<meta property="og:title" content="Полезняшки от &quot;Разбора Полетов&quot;">
+<meta property="og:image" content="https://cdn4.cdn-telegram.org/file/tRVzV8x4-FpBr3FBEMZlldEPp85LHRsVyU5PhA8HSLg76rn_AsVHu4DTKa4u8MA5RFy30PfHmyNe-iQZs1xvCGzSxR207YpSUhViMoQiA1voEr-ICZvqjZHm58AqC3IIp4QrJn_tD0XusltrBGb1Kl0K6gMO4gwYxdKHAZ9KJe9eTX2kDdspe_jRlMz75Srn1vjXmje_pyqJmHSB025wDmf7pDkWIEP2h5iGhFsNuPi_ifeDxrDRrE9h-sczgnLRVsIbWpaSNEVKbeTEmUw4tKEvrGJY6tVzeR1iyPRX7UmSg7CD-7reNMR6i5sHAJfy6IHOqdBfXQcUY6DuzzCvrA.jpg">
+<meta property="og:site_name" content="Telegram">
+<meta property="og:description" content="Полезные статьи и новости от авторов подкаста &quot;Разбор Полетов&quot;
+
+По всем вопросам @abashev">
+
+<meta property="twitter:title" content="Полезняшки от &quot;Разбора Полетов&quot;">
+<meta property="twitter:image" content="https://cdn4.cdn-telegram.org/file/tRVzV8x4-FpBr3FBEMZlldEPp85LHRsVyU5PhA8HSLg76rn_AsVHu4DTKa4u8MA5RFy30PfHmyNe-iQZs1xvCGzSxR207YpSUhViMoQiA1voEr-ICZvqjZHm58AqC3IIp4QrJn_tD0XusltrBGb1Kl0K6gMO4gwYxdKHAZ9KJe9eTX2kDdspe_jRlMz75Srn1vjXmje_pyqJmHSB025wDmf7pDkWIEP2h5iGhFsNuPi_ifeDxrDRrE9h-sczgnLRVsIbWpaSNEVKbeTEmUw4tKEvrGJY6tVzeR1iyPRX7UmSg7CD-7reNMR6i5sHAJfy6IHOqdBfXQcUY6DuzzCvrA.jpg">
+<meta property="twitter:site" content="@Telegram">
+
+<meta property="al:ios:app_store_id" content="686449807">
+<meta property="al:ios:app_name" content="Telegram Messenger">
+<meta property="al:ios:url" content="tg://resolve?domain=razborfeed">
+
+<meta property="al:android:url" content="tg://resolve?domain=razborfeed">
+<meta property="al:android:app_name" content="Telegram">
+<meta property="al:android:package" content="org.telegram.messenger">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Telegram">
+<meta name="twitter:description" content="Полезные статьи и новости от авторов подкаста &quot;Разбор Полетов&quot;
+
+По всем вопросам @abashev
+">
+
+    <link rel="prev" href="/s/razborfeed?before=3639">
+<link rel="canonical" href="/s/razborfeed?before=3659">
+
+    <script>window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches&&document.documentElement&&document.documentElement.classList&&document.documentElement.classList.add('theme_dark');</script>
+    <link rel="icon" type="image/svg+xml" href="//telegram.org/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="//telegram.org/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//telegram.org/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="//telegram.org/img/favicon-16x16.png">
+<link rel="alternate icon" href="//telegram.org/img/favicon.ico" type="image/x-icon" />
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/widget-frame.css?66" rel="stylesheet" media="screen">
+    <link href="//telegram.org/css/telegram-web.css?37" rel="stylesheet" media="screen">
+    <script>TBaseUrl='/';</script>
+  </head>
+  <body class="widget_frame_base tgme_webpreview emoji_image thin_box_shadow tme_mode no_transitions">
+    <div class="tgme_background_wrap">
+      <canvas id="tgme_background" class="tgme_background" width="50" height="50" data-colors="dbddbb,6ba587,d5d88d,88b884"></canvas>
+      <div class="tgme_background_pattern"></div>
+    </div>
+    <header class="tgme_header search_collapsed">
+  <div class="tgme_container">
+    <div class="tgme_header_search">
+      <form class="tgme_header_search_form" action="/s/razborfeed">
+        <svg class="tgme_header_search_form_icon" width="20" height="20" viewBox="0 0 20 20"><g fill="none" stroke="#7D7F81" stroke-width="1.4"><circle cx="9" cy="9" r="6"></circle><path d="M13.5,13.5 L17,17" stroke-linecap="round"></path></g></svg>
+        <input class="tgme_header_search_form_input js-header_search" placeholder="Search" name="q" autocomplete="off" value="" />
+        <a href="/s/razborfeed" class="tgme_header_search_form_clear"><svg class="tgme_action_button_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><g class="icon_body" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#000000" stroke-width="1.5"><path d="M6 14l8-8m0 8L6 6" stroke-dasharray="0,11.314" stroke-dashoffset="5.657"/><path d="M26 14l8-8m0 8l-8-8" stroke-dasharray="0.371,10.943" stroke-dashoffset="5.842"/><path d="M46 14l8-8m0 8l-8-8" stroke-dasharray="1.982,9.332" stroke-dashoffset="6.647756"/><path d="M66 14l8-8m0 8l-8-8" stroke-dasharray="5.173,6.14" stroke-dashoffset="8.243"/><path d="M86 14l8-8m0 8l-8-8" stroke-dasharray="7.866,3.448" stroke-dashoffset="9.59"/><path d="M106 14l8-8m0 8l-8-8" stroke-dasharray="9.471,1.843" stroke-dashoffset="10.392"/><path d="M126 14l8-8m0 8l-8-8" stroke-dasharray="10.417,0.896" stroke-dashoffset="10.866"/><path d="M146 14l8-8m0 8l-8-8" stroke-dasharray="10.961,0.353" stroke-dashoffset="11.137"/><path d="M166 14l8-8m0 8l-8-8" stroke-dasharray="11.234,0.08" stroke-dashoffset="11.274"/><path d="M186 14l8-8m0 8l-8-8"/></g></svg></a>
+      </form>
+    </div>
+    <div class="tgme_header_right_column">
+      <section class="tgme_right_column">
+        <div class="tgme_channel_info">
+          <div class="tgme_channel_info_header">
+            <i class="tgme_page_photo_image bgcolor4" data-content="ПП"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i>
+            <div class="tgme_channel_info_header_title_wrap">
+              <div class="tgme_channel_info_header_title"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></div>
+              <div class="tgme_channel_info_header_labels"></div>
+            </div>
+            <div class="tgme_channel_info_header_username"><a href="https://t.me/razborfeed">@razborfeed</a></div>
+          </div>
+          <div class="tgme_channel_info_counters"><div class="tgme_channel_info_counter"><span class="counter_value">1.23K</span> <span class="counter_type">subscribers</span></div><div class="tgme_channel_info_counter"><span class="counter_value">73</span> <span class="counter_type">photos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">4</span> <span class="counter_type">videos</span></div><div class="tgme_channel_info_counter"><span class="counter_value">3</span> <span class="counter_type">files</span></div><div class="tgme_channel_info_counter"><span class="counter_value">3.51K</span> <span class="counter_type">links</span></div></div>
+          <div class="tgme_channel_info_description">Полезные статьи и новости от авторов подкаста &quot;Разбор Полетов&quot;<br/><br/>По всем вопросам <a href="https://t.me/abashev" target="_blank">@abashev</a></div>
+          <a class="tgme_channel_download_telegram" href="//telegram.org/dl?tme=939c6f083a1551fddb_3340773409056059868">
+            <svg class="tgme_channel_download_telegram_icon" width="21px" height="18px" viewBox="0 0 21 18"><g fill="none"><path fill="#ffffff" d="M0.554,7.092 L19.117,0.078 C19.737,-0.156 20.429,0.156 20.663,0.776 C20.745,0.994 20.763,1.23 20.713,1.457 L17.513,16.059 C17.351,16.799 16.62,17.268 15.88,17.105 C15.696,17.065 15.523,16.987 15.37,16.877 L8.997,12.271 C8.614,11.994 8.527,11.458 8.805,11.074 C8.835,11.033 8.869,10.994 8.905,10.958 L15.458,4.661 C15.594,4.53 15.598,4.313 15.467,4.176 C15.354,4.059 15.174,4.037 15.036,4.125 L6.104,9.795 C5.575,10.131 4.922,10.207 4.329,10.002 L0.577,8.704 C0.13,8.55 -0.107,8.061 0.047,7.614 C0.131,7.374 0.316,7.182 0.554,7.092 Z"></path></g></svg>Download Telegram
+          </a>
+          <div class="tgme_footer">
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/faq">About</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/blog">Blog</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//telegram.org/apps">Apps</a></h5>
+            </div>
+            <div class="tgme_footer_column">
+              <h5><a href="//core.telegram.org/">Platform</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="tgme_header_info">
+      <a class="tgme_channel_join_telegram" href="//telegram.org/dl?tme=939c6f083a1551fddb_3340773409056059868">
+        <svg class="tgme_channel_join_telegram_icon" width="19px" height="16px" viewBox="0 0 19 16"><g fill="none"><path fill="#ffffff" d="M0.465,6.638 L17.511,0.073 C18.078,-0.145 18.714,0.137 18.932,0.704 C19.009,0.903 19.026,1.121 18.981,1.33 L16.042,15.001 C15.896,15.679 15.228,16.111 14.549,15.965 C14.375,15.928 14.211,15.854 14.068,15.748 L8.223,11.443 C7.874,11.185 7.799,10.694 8.057,10.345 C8.082,10.311 8.109,10.279 8.139,10.249 L14.191,4.322 C14.315,4.201 14.317,4.002 14.195,3.878 C14.091,3.771 13.926,3.753 13.8,3.834 L5.602,9.138 C5.112,9.456 4.502,9.528 3.952,9.333 L0.486,8.112 C0.077,7.967 -0.138,7.519 0.007,7.11 C0.083,6.893 0.25,6.721 0.465,6.638 Z"></path></g></svg>Join
+      </a>
+      <a class="tgme_header_link" href="https://t.me/razborfeed">
+        <i class="tgme_page_photo_image bgcolor4" data-content="ПП"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i>
+        <div class="tgme_header_title_wrap">
+          <div class="tgme_header_title"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></div>
+          <div class="tgme_header_labels"></div>
+        </div>
+        <div class="tgme_header_counter">1.23K subscribers</div>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="tgme_main" data-url="/razborfeed">
+  <div class="tgme_container">
+    <section class="tgme_channel_history js-message_history">
+      <div class="tgme_widget_message_centered js-messages_more_wrap"><a href="/s/razborfeed?before=3639" class="tme_messages_more js-messages_more" data-before="3639"></a></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3639" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzYzOSwidCI6MTcwNzk1NTMzMiwiaCI6Ijg1MTlkZTc2MTAwODUyOTNhMiJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://cloud.yandex.ru/ru/training/greenplum" target="_blank" rel="noopener">https://cloud.yandex.ru/ru/training/greenplum</a></div>
+<a class="tgme_widget_message_link_preview" href="https://cloud.yandex.ru/ru/training/greenplum">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">cloud.yandex.ru</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/WsAsipCR0lq718iXg9xOEHbXGZjZs_kBZVS3v9ViJ6CuLWclyl7w7PbcziK-pSs3B-ep0lOUziCSs7V6yKluMPqG1UUmHGTYy_0Sl8r5AOppM3AZnBvHVICA4mgW8TrrwDXHaT2xHoJP0Id3MViLHyhItG0EHc4TgyBh_IGmbqLqPeXxM-EfFOtNdttTkVEfjQWYkXttFhcSVwVXevye2QrdRzU9vJGt-yonxC8VAomoBvgJzYVeH7ggUl8CEmES0rM1jNm3jXALoNvAX_9BLIouPdqrDBAJ1vjnk1XZxpFjtrx65K4U10f33uMCAoHFQgQifwivKtXVrpad-9_Ffw.jpg');padding-top:50%"></i>
+  <div class="link_preview_title" dir="auto">Курс «Managed Service for Greenplum<i class="emoji" style="background-image:url('//telegram.org/img/emoji/40/C2AE.png')"><b>®</b></i>»</div>
+  <div class="link_preview_description" dir="auto">Бесплатный практический курс. Семь модулей для изучения в произвольном порядке. Лучшие практики работы с Greenplum.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">547</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3639"><time datetime="2024-02-06T19:42:58+00:00" class="time">19:42</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3640" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0MCwidCI6MTcwNzk1NTMzMiwiaCI6IjhjMGYzOGQxNzc4ZjIyZTIwNCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://www.infoq.com/articles/cloud-computing-post-serverless-trends/" target="_blank" rel="noopener">https://www.infoq.com/articles/cloud-computing-post-serverless-trends/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://www.infoq.com/articles/cloud-computing-post-serverless-trends/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">InfoQ</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/cFfAiT8fwGltabtW_pN4Xgy6iw2zpuAqna7sj_v4DuFdy0nNLRzi8H117qh3gfPmKJ45j2os7uAVk7GRvHf36klHC-ApDamu55gOs3n_GAcSGrY92FXU_CaQPVOccGF_2VDiOKJIM6QhM8AIt5vRUJXSTU7SkBcn_2ZpW_qlY_gkcXVBwzs1Gdrbf513oLWdy4mgQO6Jh8v3a3D1T6CgvqgwnLMM4ie0reAyZ4EFk2dha3utvt7yTT16Ij_3Pfp975lOrmApI_oRs_M15MaO6Gi1sET2k_wH0kY8VEbywWBnkZdAypWSXYCqndeCg71-gj1onoTcwkuKele8tRyPTA.jpg');padding-top:52.5%"></i>
+  <div class="link_preview_title" dir="auto">Cloud-Computing in the Post-Serverless Era: Current Trends and beyond</div>
+  <div class="link_preview_description" dir="auto">Discover the evolution of cloud-computing in the post-serverless era, with a shift towards hyper-specialized vertical multi-cloud services and a trend moving from Infrastructure as Code to Composition as Code. Microservices are being redefined in the cloud…</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">553</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3640"><time datetime="2024-02-06T19:46:24+00:00" class="time">19:46</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3641" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0MSwidCI6MTcwNzk1NTMzMiwiaCI6ImE4NDJmMGVhN2Q0MTU1ZjZmMCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">SeaweedFS fast distributed storage system for blobs, objects, files and datalake<br/><a href="https://github.com/seaweedfs/seaweedfs" target="_blank" rel="noopener">https://github.com/seaweedfs/seaweedfs</a></div>
+<a class="tgme_widget_message_link_preview" href="https://github.com/seaweedfs/seaweedfs">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">GitHub</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/vx7jX68z4TYOOs5MADEdtkgUORMGLzxdxhpei66i2cHdVOygxnw8IthQr9uJWWkDMVkjBZlO40s0TZPV8gS7G5emy7voYDfF7CnyHYTMEPmMYS0BbHExSAdI9CZRvpvaN7bqUF-Rf6_cce55fyhx5N5n7AgBCjNHczxGGzf5gD-PVDREp8cWLTV4353bX4qHSwQrNrUp_X8Cn3erkCGcXUhSL7H4nHGTVuO8Vqi-Vz4dPS981UHZFBlPR7Ag53nZfAIhnz5RJUmwx7T19WdXt5m6FtFrHuJIRNiNxFHoKPinad5TLsgXU2H991DpCaVJDLg2VHb1WwlWVEtE15iWFw.jpg');padding-top:100%"></i>
+  <div class="link_preview_title" dir="auto">GitHub - seaweedfs/seaweedfs: SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions…</div>
+  <div class="link_preview_description" dir="auto">SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files&#33; Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC ac...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">622</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3641"><time datetime="2024-02-07T07:55:59+00:00" class="time">07:55</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3642" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0MiwidCI6MTcwNzk1NTMzMiwiaCI6IjViMWEzYjJlNWQ1Y2QyMWU3ZSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Trunk-Based Development<br/><a href="https://trunkbaseddevelopment.com/" target="_blank" rel="noopener">https://trunkbaseddevelopment.com/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://trunkbaseddevelopment.com/">
+  <i class="link_preview_right_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/OtdlfYv_9JEnYL7Wa36BMg3ilgYq6M6imQHJI8-vwqU1aObBQ3gd6owsYSS-ZkrCuYFWi0rl1VqGaWqMMBUA7K5qMOgN53SuEUcklbsvlfw_83Zj8HmmWLn1tMHwWVRC_zqh_X-i6VZdfY9HAGzTWkyHvsAlgnGnwfUo9D5JVf79oJcUqwVGzQe91WqjdFEd3SQEjUgRLwdATDlXXKr5s8KM1kR1atCMqaYnvw5YVYMYj-QuMlAPDShxQ3vqSZWYClsF_44kTi_VbvOuBK8ihZ-VJL07ozYhieQSsjEw_jsstAKkCKXDsHUjtJmiHbtBkvyVrBb2tK9kSzlA0T_y_Q.jpg')"></i>
+  <div class="link_preview_site_name accent_color" dir="auto">Trunkbaseddevelopment</div>
+  
+  <div class="link_preview_title" dir="auto">Trunk Based Development</div>
+  <div class="link_preview_description" dir="auto">A portal on this practice</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">611</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3642"><time datetime="2024-02-07T10:11:47+00:00" class="time">10:11</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3643" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0MywidCI6MTcwNzk1NTMzMiwiaCI6ImNhNDljOGIzY2NiNDQ1ZjA1ZSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">This Week in Spring - February 6th<br/><a href="https://spring.io/blog/2024/02/07/this-week-in-spring-february-6th" target="_blank" rel="noopener">https://spring.io/blog/2024/02/07/this-week-in-spring-february-6th</a></div>
+<a class="tgme_widget_message_link_preview" href="https://spring.io/blog/2024/02/07/this-week-in-spring-february-6th/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">This Week in Spring - February 6th</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/lFtR3QvdGEhcBWHDDwDWfISQKqINgBSGXlYRgfMzTr2wkihdEDboLmAxrPAKS2a96YKF48xMIVI7Gh4561BX-9hML6sY80lRx8DuL6wmTF6kOdEJSjMx9l8PgNlct6i7Ay6AgEBBQR05xfENJfdIPDTnJdPVhWgRORN3l7DMJOLk1CZkhLu9hhZXmKVJdgW-06rsXS7tO4iJwK7x7Xna6ajbDckQ17FSUlGaDnEv9eF_mPsZhk93B0TIt7QPdk_qtnGancv_BapH_fcb36kEHPCQHH0JCLgDf6AhpWZWZpui18yRtuWHomiFzJ09Yi8u8ryMySebn4Le8ZG-KUs7hw.jpg');padding-top:50%"></i>
+  
+  <div class="link_preview_description" dir="auto">Level up your Java code and explore what Spring can do for you.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">563</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3643"><time datetime="2024-02-07T16:14:03+00:00" class="time">16:14</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3644" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0NCwidCI6MTcwNzk1NTMzMiwiaCI6IjQ2MjAxNjExNmE1MGRjMWNkYyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+<div class="tgme_widget_message_forwarded_from accent_color">Forwarded from&nbsp;<span class="tgme_widget_message_forwarded_from_name">Аскер</span></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Корпоративный куколдизм / Хабр<br/><a href="https://habr.com/ru/articles/789456/" target="_blank" rel="noopener">https://habr.com/ru/articles/789456/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://habr.com/ru/articles/789456/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Хабр</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/FfoV9CxJ0T2oVlEG5YwpjgFaXG6NQZMFF7SgYQ6D1U8YFh9UYi_n-HDLYFNO0FJAtAQuD8eWzzD78fBT7m5mPhqPY6ZX2wdVxGuELenSizb21RT3FVkmXMzsOBibev_jKOasuEwyFIm1_afzUOujql4itnnH1xg-04JNEQQocx4vc2kEWNhGXMEi53PhAfoOwXA4eDnmXTTCuzMYplkt_NtBnKDB9yyXLxg7SDnee7rahYHHhlxgeFRQbONfVvpm1KDSz4ReJRyDOu8lwdTs9z8Bpi03W5ZYRa8Hl66tQwHqco3Jqiq33LF_rwL36CO2q_XwuULdFkA7RIUc5HzJVw.jpg');padding-top:100%"></i>
+  <div class="link_preview_title" dir="auto">Корпоративный куколдизм</div>
+  <div class="link_preview_description" dir="auto">Зачастую мне приходится слышать в подкастах или лицезреть в комментариях примерно такой диалог: — Я вашу айтишечку на балде вертел. Я сюда ради денег пришёл, которые в России ни в одной другой...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">594</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3644"><time datetime="2024-02-08T07:09:35+00:00" class="time">07:09</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3645" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0NSwidCI6MTcwNzk1NTMzMiwiaCI6IjJkMTMzYTZjY2Q0ODRhYTY2MCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">[Перевод] Люди не понимают ООП<br/><a href="https://habr.com/ru/companies/ruvds/articles/792052/" target="_blank" rel="noopener">https://habr.com/ru/companies/ruvds/articles/792052/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://habr.com/ru/companies/ruvds/articles/792052/?utm_campaign=week_digest_20240213&amp;utm_source=email_habr&amp;utm_medium=email_digest&amp;utm_content=link2post">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Хабр</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/kQesX8Dtqq45Dw52w-eFNnHRty-4J55JmTCbArDENrZE9z5Avz76GK__R-dnkuTyc5T-abnnRqQqm90x_6qHWXtzNxVl7t3pUYXJqvAmaUaiEbkMNyXrWpS7fMTAQzSjYmTrG5NqduaeNnl_RIe3OlZl728hh4lCllIxO0FcUE3UkYIMI0yM809PjPINPS_7ud5LIpde8pTy4-MAgi9ceIs2BAaosWcle95PODGQ7Y4trqfr_bCqusUvyaRdE9uZKKirADHl7IXqPk5YIEP14O3ySHiJkWWhiCKrXb4YndeTZZMYjbbQ4OxSOHG130ijMTphb3JPQ7U-214uVnrvJw.jpg');padding-top:48.260211800303%"></i>
+  <div class="link_preview_title" dir="auto">Люди не понимают ООП</div>
+  <div class="link_preview_description" dir="auto">«ООП для меня означает лишь обмен сообщениями, локальные ограничения и защиту, сокрытие состояния процесса и крайне позднее привязывание», — Алан Кэй (человек, придумавший термин...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">603</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3645"><time datetime="2024-02-08T11:09:55+00:00" class="time">11:09</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3646" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0NiwidCI6MTcwNzk1NTMzMiwiaCI6ImFjMDQ5NTAxNWZkMzA1YWYxZCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">DotSlash: Simplified executable deployment<br/><a href="https://engineering.fb.com/2024/02/06/developer-tools/dotslash-simplified-executable-deployment/" target="_blank" rel="noopener">https://engineering.fb.com/2024/02/06/developer-tools/dotslash-simplified-executable-deployment/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://engineering.fb.com/2024/02/06/developer-tools/dotslash-simplified-executable-deployment/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Engineering at Meta</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/nyLnY6xjGxuatNfPSR1iCm80_a7SWniRWFoWar9GV7jRWKEk-GOURi-54G6h2zQ_984oFqIfQFyO1iEKQe3C7XfWD5ZSIPhTUnEPOaAdn3Xd8OMMERk72v7OnKyLBfKao2H-zyf5zkAzryNSLnU9XF2Jc1ezwW1VvC5hW-rNSh9JhS5WaLGR7jGPACYY7K_o7ZBY6C3JLtB5l_4pKNR95Tz2ZxcB2jHaNF8jXSBdnEBXoue35Al09zBkb5dU9jo5OpOSIo_nEQnW9t4yIGcc98yDjw_ML29PC3N7Izpv0DtzQYGDRUCzARnrg4M2N3xOFnCSZzlcixC7zSi9DwzQaA.jpg');padding-top:56.25%"></i>
+  <div class="link_preview_title" dir="auto">DotSlash: Simplified executable deployment</div>
+  <div class="link_preview_description" dir="auto">We’ve open sourced DotSlash, a tool that makes large executables available in source control with a negligible impact on repository size, thus avoiding I/O-heavy clone operations. With DotSlash, a …</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">596</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3646"><time datetime="2024-02-08T14:42:41+00:00" class="time">14:42</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3647" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0NywidCI6MTcwNzk1NTMzMiwiaCI6Ijk0MjliNWM0ZmQ2MzliM2I2OSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">The disaggregated write-ahead log<br/><a href="https://blog.schmizz.net/disaggregated-wal" target="_blank" rel="noopener">https://blog.schmizz.net/disaggregated-wal</a></div>
+<a class="tgme_widget_message_link_preview" href="https://blog.schmizz.net/disaggregated-wal">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">unofficial blog</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/M8_HtkyKSPP5vCxbyCsw_7az8-WImhgPw0CcLw7417mE_Z5kyG5APi32t0zk_-UHriP8el43-5NFCj861qiiWPdOPHCPrTjPU-HufC0Ew4LLXRzhQ4ZXpuJyhe4myqiY3kMEi8HP0e2EZOQFIsQ1uJkYcB0guPtH5EOE-ZR8sAZqlzrFzGhFqWuQ3H0H6OGioO6dR6WX7OAL9UeiZG_fCgqasOdUKGSnEOv442snHJA6MAL11IMQl7Dtcq_5sUHJEc6eeY-A0_T1g9uFSaDfszLKurZMgDVzWo8YGco1erT1QysFewTS-SofPMNyA8sBuKrwMi2ZcBt9K1JTLAkDYQ.jpg');padding-top:52.5%"></i>
+  <div class="link_preview_title" dir="auto">The disaggregated write-ahead log</div>
+  <div class="link_preview_description" dir="auto">The traditional way replicated systems are architected is to physically co-locate the write-ahead log (WAL) on the nodes where the state is being maintained. Then a consensus protocol like Paxos or Raft is used to make sure the log on each replica ag...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">596</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3647"><time datetime="2024-02-09T07:04:59+00:00" class="time">07:04</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3648" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0OCwidCI6MTcwNzk1NTMzMiwiaCI6IjM1MzE4NWM5NmYzNzZhNDM3ZCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">BuildKit in depth: Docker&#39;s build engine explained<br/><a href="https://depot.dev/blog/buildkit-in-depth" target="_blank" rel="noopener">https://depot.dev/blog/buildkit-in-depth</a></div>
+<a class="tgme_widget_message_link_preview" href="https://depot.dev/blog/buildkit-in-depth">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Depot</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/PnzUeSGJRnO6quuknByFdOnHH6bo5Rhly9pBhNB_6u5CIVmtxrCJs7KC_jA12__D3S848GKC2DpoluAlElnGJ6Zv_glI1fNeeg_s7eGjzdGsWaa3CvC3S8_JqJYdvxQUNHKl0ORRkLmBtVdB0Y72nJw4_epY8YHADqspy9E7jzm_qoRmZXM8p7TM6iiVlUGfTa402vTZZ80Otrxs_XYvhMJNbLHlZqW6gnkxsndbivchECA219KYghv15t0uvd8Z84UAdAl_bhVCNSc7FqRLJWmCnjlrfxMRkbt0I0VmFqrZY8RfwEEIHxEMVtLGaERzdAzJmiBXoJ-BZrobPdXQ8A.jpg');padding-top:52.5%"></i>
+  <div class="link_preview_title" dir="auto">BuildKit in depth: Docker&#39;s build engine explained</div>
+  <div class="link_preview_description" dir="auto">This article explains how BuildKit works in depth, why it&#39;s faster than Docker&#39;s previous build engine, and what it looks like under the hood.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">1.1K</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3648"><time datetime="2024-02-09T12:19:17+00:00" class="time">12:19</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3649" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY0OSwidCI6MTcwNzk1NTMzMiwiaCI6IjA2YzY4Y2U3NWNlOGE2ZmQxNSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+<div class="tgme_widget_message_forwarded_from accent_color">Forwarded from&nbsp;<span class="tgme_widget_message_forwarded_from_name">Аскер</span></div>
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto"><a href="https://habr.com/ru/articles/792046/" target="_blank" rel="noopener">https://habr.com/ru/articles/792046/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://habr.com/ru/articles/792046/?utm_source=twitter_habr&amp;utm_medium=social&amp;utm_campaign=19038150">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Хабр</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/vIz_2RgsnI5s0fqnKb-X3ASOSaQ_SDizaZPEXyW_nDJXy3TBFGSL9qZN-_9mdt30h3XYddkA0w46gT4qqZy7Mi27mSMNacZJjZPilaAYaZ7g2EjodjIDDG5T2YLABaC9nI2FcUn71Djo9gAVeRPNk2nN__sucyAu0C1e7XoTOMHKkq1osw0zSOxCHx5Uupn8jCqlUPlK-B0x83xwsOkD_qrw2Zw8uNQigbQIXVatKpE0GpDitiJrUcdOgsKP91R327pVYkWvgIbTR0-2a_rhroHk5_o03euGgqfdVTYpLToChAnHN_DEgDnv4J9alQCCZsstupRu06urSMjOpTOVNA.jpg');padding-top:66.75%"></i>
+  <div class="link_preview_title" dir="auto">Где-то в дороге мы забыли о мастерстве программирования</div>
+  <div class="link_preview_description" dir="auto">«Поставляй&#33;» «Мы теперь Agile, детка. Двигайся&nbsp;быстро и ломай вещи&#33;» «Мы оцениваем наших инженеров по&nbsp;тому влиянию, которое они оказывают&#33;» Где‑то по&nbsp;пути, в&nbsp;разгар agilification...</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">514</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3649"><time datetime="2024-02-11T09:39:54+00:00" class="time">09:39</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3650" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1MCwidCI6MTcwNzk1NTMzMiwiaCI6IjEwZGI0N2RhYTFkM2ZlYmRkMSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Show HN: <a href="http://Logdy.dev/" target="_blank" rel="noopener">Logdy.dev</a> – web based log viewer UI for local development environments<br/><a href="http://Logdy.dev/" target="_blank" rel="noopener">http://Logdy.dev/</a></div>
+
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">491</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3650"><time datetime="2024-02-11T12:20:40+00:00" class="time">12:20</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3651" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1MSwidCI6MTcwNzk1NTMzMiwiaCI6IjllZTU0YWJkMDM5YWVjYzg0OCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Are we past peak IPv4?<br/><a href="https://www.sidn.nl/en/news-and-blogs/are-we-past-peak-ipv4" target="_blank" rel="noopener">https://www.sidn.nl/en/news-and-blogs/are-we-past-peak-ipv4</a></div>
+
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">472</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3651"><time datetime="2024-02-12T08:06:23+00:00" class="time">08:06</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3652" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1MiwidCI6MTcwNzk1NTMzMiwiaCI6IjIxMTk1ODQ4NTVhZjA4YTVmOCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Simple Precision Time Protocol at Meta<br/><a href="https://engineering.fb.com/2024/02/07/production-engineering/simple-precision-time-protocol-sptp-meta/" target="_blank" rel="noopener">https://engineering.fb.com/2024/02/07/production-engineering/simple-precision-time-protocol-sptp-meta/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://engineering.fb.com/2024/02/07/production-engineering/simple-precision-time-protocol-sptp-meta/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Engineering at Meta</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/GPUV0gCUsNfjKpu2kl6ODi5gvcNEjTLtEOiPQaNVLOnH5MC1IzM6HIY0H3v8AXt-uZGF1KJD6JBHT7k2gQooHllQkp9vMRYG0hbBG2Bp_hlErLDjUpL1ji9GVVmTdyypthnuUH5AsdZ9ylHng2mRo3HexSzIjecYbSoYEbAwtnrMnXqRI2GTTMfkWLzOCdnYyqTHRscXiMDuFvrftmLY9W7q8FzeZ4JMrhmyrAToOgr9CyA925rpRCm817m0DKKyKQghkZ8dk3A-wYngAkdC0pjy4TS8MN6g5YbwXtsUtvw7LrIHSDOA1YDcT74KzBew_fxjuSHVqnn4EGabiXj9Pw.jpg');padding-top:56.09375%"></i>
+  <div class="link_preview_title" dir="auto">Simple Precision Time Protocol at Meta</div>
+  <div class="link_preview_description" dir="auto">While deploying Precision Time Protocol (PTP) at Meta, we’ve developed a simplified version of the protocol (Simple Precision Time Protocol – SPTP), that can offer the same level of clock syn…</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">473</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3652"><time datetime="2024-02-12T12:07:11+00:00" class="time">12:07</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3653" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1MywidCI6MTcwNzk1NTMzMiwiaCI6IjhjMDgzMjUyNmZhZDM1NTdiYyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Things We Take for Granted #1 − Annotations<br/><a href="https://medium.com/@joshuaxu71/things-we-take-for-granted-1-annotations-e45c94a4fde0" target="_blank" rel="noopener">https://medium.com/@joshuaxu71/things-we-take-for-granted-1-annotations-e45c94a4fde0</a></div>
+<a class="tgme_widget_message_link_preview" href="https://medium.com/@joshuaxu71/things-we-take-for-granted-1-annotations-e45c94a4fde0">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">Medium</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/VHkkf84BKFawE3ldDkWGDsI90QtspU0pnw225a0kMJhEXr3zYOyom1Jl3WLEizDjc3INuChVX8U8fy-VP9OyDMzMrOH8orwcFRWVYTZwfwP74RShTmWxczRwHYrN0Sx8LwUAGaugsjBd-K6iVRp6VE9Bc4rvcpmIj75y8RB-GLHLC6yzSKRYQuHsWj84h8gDXCbXuBWzfBA0OF0ELPy14qyG1J7yQu-fH8NO3b999q-JN6P2c1KiCJVmifUo_UfypkF6qKGnSZxcruGJ4VyYMB6eq3RLIegZjtb_bhy7ceL5fZCvMz7Q87ZJdtGhq46Jdymv7bdWfR6yztqRHLcByA.jpg');padding-top:50%"></i>
+  <div class="link_preview_title" dir="auto">Things We Take for Granted #1 − Annotations</div>
+  <div class="link_preview_description" dir="auto">Remember your days (or maybe even now) where you had to learn Java, create a class, generate the getters, setters, and toString methods? If you generated them using the IDE, then great. But there’s…</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">470</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3653"><time datetime="2024-02-12T16:50:24+00:00" class="time">16:50</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3654" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1NCwidCI6MTcwNzk1NTMzMiwiaCI6IjdjZjk4ZTY3ZDgwMmE1ZTZkOSJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">New Livestream – Qodana Code Analysis: From the IDE to Quality Gates<br/><a href="https://blog.jetbrains.com/idea/2024/02/new-livestream-qodana-code-analysis-from-the-ide-to-quality-gates/" target="_blank" rel="noopener">https://blog.jetbrains.com/idea/2024/02/new-livestream-qodana-code-analysis-from-the-ide-to-quality-gates/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://blog.jetbrains.com/idea/2024/02/new-livestream-qodana-code-analysis-from-the-ide-to-quality-gates/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">The JetBrains Blog</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/k_vYUM3bkNZ9tzWNztzhH4lliNyr_bzCTcqV82rqBxf2eObVImFAC_PY9I2qgBIbzRzNyn5m0o2ppB905q4TxWeiIlAC5o5fLs7XXbpybROdMIXmvoxH6OZDCH0vwtKoeMKCYBTR-gvgDkzV5WkD0MTep-Cz7kpBGPHGyRFHrlnTS-ijJzVNCl1Q-ZVjK2aHVabA2VuImiOtrI55Me8A5lUta4skb2PLcls8O9f_3flQf-5kJhqZla9W2Uq0kGWn04hUnLCyXGl-BfzqeVFcHRBJvbK_5qncd1pN1NUYiaysJxQFuExG8JrToBFaL5snJabSw39DAo9ssow2gF3e0A.jpg');padding-top:56.25%"></i>
+  <div class="link_preview_title" dir="auto">New Livestream – Qodana Code Analysis: From the IDE to Quality Gates | The IntelliJ IDEA Blog</div>
+  <div class="link_preview_description" dir="auto">Join us for the new IntelliJ IDEA Livestream episode with Anton Arhipov to learn about the tools in IntelliJ IDEA that help you work with code and improve its quality.</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">444</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3654"><time datetime="2024-02-13T08:19:13+00:00" class="time">08:19</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3655" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1NSwidCI6MTcwNzk1NTMzMiwiaCI6IjVlNGM0ODI3NDE4OGQyNmFmZCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Constructor Makeover in Java 22<br/><a href="https://blog.jetbrains.com/idea/2024/02/constructor-makeover-in-java-22/" target="_blank" rel="noopener">https://blog.jetbrains.com/idea/2024/02/constructor-makeover-in-java-22/</a></div>
+<a class="tgme_widget_message_link_preview" href="https://blog.jetbrains.com/idea/2024/02/constructor-makeover-in-java-22/">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">The JetBrains Blog</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/ZcPNqCgXFeT-Y8n04-6-nU7vdTlOhw6Chgp17BTx_1B_fUXWPhlqYGl65xB84iZDskL_YGfJnUZ2OXtD_S3DUk1_zD6eOSykL6tRgDRU9UMQW-6GgqYNT3TJ-o9UeQ7S8OkGKY4lLfADq49LCUPGoWAQHEpCs11o_fYqdx7q9YOTu-fxY5FQ_kASc15AHcqKhSP_7ANa6eUBeNYy7foCFiR2AChjwt5pFSKcN1vYbwzakdt7BSios-NdQiFnlvwMCLzy9B33O4PWldMWp8d-o50xVYe0tO46zJrW0naF7ljYho2YsJ9e3xAKODkzoSTzwOkngrALOKsKSQWh-oQfOw.jpg');padding-top:36.125%"></i>
+  <div class="link_preview_title" dir="auto">Constructor makeover in Java 22 | The IntelliJ IDEA Blog</div>
+  <div class="link_preview_description" dir="auto">Typically, we create alternative solutions for tasks that are necessary, but not officially permitted. For instance, executing statements before super() in a derived class constructor was not official</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">431</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3655"><time datetime="2024-02-13T10:27:20+00:00" class="time">10:27</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3656" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1NiwidCI6MTcwNzk1NTMzMiwiaCI6IjdkZDllZDYwMGZmODdlNjZlNyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Glowdust is a new kind of Database Management System<br/><a href="https://codeberg.org/glowdust/glowdust" target="_blank" rel="noopener">https://codeberg.org/glowdust/glowdust</a></div>
+<a class="tgme_widget_message_link_preview" href="https://codeberg.org/glowdust/glowdust">
+  <i class="link_preview_right_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/plsdV9tGj0zQ4yTjFb2EOXnhLHXPE4RJmtBvzqpSPYCnhzjh0Yvzig91nBI7ltywkBTF-TWjHyWX_e3LN3AX6G-C53E_E-W2sz3MxAaypPwOceHN22bd2-WblXekTIZnxPGkjU7c7Ru0ErkOoLA6fDRo0Gces70n_bP3T4XUSto5qyu7v_Q5tdfNuaP8wokz0l52jftMxFmjP_nV2tz97g2ox91wVQjKLgulzGdV2N5OS6Uz-ivWjnccfC0PiTI9kTsXfy4wVeRVJ6SbCQi6pPBf-AfLi48ORtanFcVd3As3D5t0iI32XpSU2i_GoLviZQ_71-LDi2KQcjylLzBJEg.jpg')"></i>
+  <div class="link_preview_site_name accent_color" dir="auto">Codeberg.org</div>
+  
+  <div class="link_preview_title" dir="auto">glowdust</div>
+  <div class="link_preview_description" dir="auto">The core for the Glowdust DBMS</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">353</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3656"><time datetime="2024-02-14T08:29:32+00:00" class="time">08:29</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3657" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1NywidCI6MTcwNzk1NTMzMiwiaCI6IjI5NGYzNTA1OTQ3NGJkMjQ2MyJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">All you need to know about Spring AI<br/><a href="https://unlogged.io/post/all-you-need-to-know-about-spring-ai" target="_blank" rel="noopener">https://unlogged.io/post/all-you-need-to-know-about-spring-ai</a></div>
+<a class="tgme_widget_message_link_preview" href="https://www.unlogged.io/post/all-you-need-to-know-about-spring-ai">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">www.unlogged.io</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/joKOE2EZMT83JiJYY8cgeQgtsKFyCeQc1ygeV8RNqBvLF5tneJBVPohpQDbrwGHdklDLYisG4mq9Cdwm0IgCCwAxdGc6KKz-JZKUV8DN-txh4-rOG77U8JRPuQbeSqqf0tIQYRE9zdl_l-ExFmrBRHEBORGZsOew5kFvaAz6-wMWTh5t8olRx_hPzpjzz82Y7LOaTPDBw9uVbPedhqjh4XlCXt0OkhhQbWlDURALUal6OCL2tnW4Rn3c4N88__j4Fu8Ho2ez7qAaq11QdNq6gdpuuUlIDffk3DyH29ggQusciJud7zevI1WY-zEWYW0p0UEUVpuWhEzo1OrnJNn6nA.jpg');padding-top:56.25%"></i>
+  <div class="link_preview_title" dir="auto">All you need to know about Spring AI</div>
+  <div class="link_preview_description" dir="auto">Explore the power of Spring AI, a project within the Spring Framework, bringing artificial intelligence to Java developers. Learn about Generative AI and what Spring AI has to offer. Dive into chapters covering building a basic generative AI application with…</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">338</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3657"><time datetime="2024-02-14T09:51:02+00:00" class="time">09:51</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div><div class="tgme_widget_message_wrap js-widget_message_wrap"><div class="tgme_widget_message text_not_supported_wrap js-widget_message" data-post="razborfeed/3658" data-view="eyJjIjotMTMyNTQ1MjA1NSwicCI6MzY1OCwidCI6MTcwNzk1NTMzMiwiaCI6ImQzMGNjZTYxNTQxYzFjYzEzZCJ9">
+  <div class="tgme_widget_message_user"><a href="https://t.me/razborfeed"><i class="tgme_widget_message_user_photo bgcolor4" data-content="П"><img src="https://cdn4.cdn-telegram.org/file/GAigZm_n8sgapUZqM4c-QLZjRwO0YSHBEz0wy67qUOxiQC4LrHSEs3V0qo_fzElFSI0csE7L5_qeyJh9hyy0IVJFj8dLLNxXa__4PbR1BPEieBPvEsw56sC6NFU5sDvqfbs2wDS_KRiV8C4OAUCQ5G_deUfuT1NYTh1os2vpN3ESJxk1A84nVl7zm4vZcwH9pH777BgQAg_7oCnyAwDLRSbgpQIsYae7TT16j4XMaBA4D6Vj0NoRZ77mZFyJPOHp4xxwTi0l6fKB7qouUTDrAMxkhDCbF9PPr0cKX7hT8GiQKJK73YAyqiFs-2L9fasbgWyJQDurBsDHYi5nGeCCLw.jpg"></i></a></div>
+  <div class="tgme_widget_message_bubble">
+    
+        <i class="tgme_widget_message_bubble_tail">
+      <svg class="bubble_icon" width="9px" height="20px" viewBox="0 0 9 20">
+        <g fill="none">
+          <path class="background" fill="#ffffff" d="M8,1 L9,1 L9,20 L8,20 L8,18 C7.807,15.161 7.124,12.233 5.950,9.218 C5.046,6.893 3.504,4.733 1.325,2.738 L1.325,2.738 C0.917,2.365 0.89,1.732 1.263,1.325 C1.452,1.118 1.72,1 2,1 L8,1 Z"></path>
+          <path class="border_1x" fill="#d7e3ec" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0 L9,0 L9,20 L7,20 L7,20 L7.002,18.068 C6.816,15.333 6.156,12.504 5.018,9.58 C4.172,7.406 2.72,5.371 0.649,3.475 C-0.165,2.729 -0.221,1.464 0.525,0.649 C0.904,0.236 1.439,0 2,0 Z"></path>
+          <path class="border_2x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.5 L9,0.5 L9,20 L7.5,20 L7.5,20 L7.501,18.034 C7.312,15.247 6.64,12.369 5.484,9.399 C4.609,7.15 3.112,5.052 0.987,3.106 C0.376,2.547 0.334,1.598 0.894,0.987 C1.178,0.677 1.579,0.5 2,0.5 Z"></path>
+          <path class="border_3x" d="M9,1 L2,1 C1.72,1 1.452,1.118 1.263,1.325 C0.89,1.732 0.917,2.365 1.325,2.738 C3.504,4.733 5.046,6.893 5.95,9.218 C7.124,12.233 7.807,15.161 8,18 L8,20 L9,20 L9,1 Z M2,0.667 L9,0.667 L9,20 L7.667,20 L7.667,20 L7.668,18.023 C7.477,15.218 6.802,12.324 5.64,9.338 C4.755,7.064 3.243,4.946 1.1,2.983 C0.557,2.486 0.52,1.643 1.017,1.1 C1.269,0.824 1.626,0.667 2,0.667 Z"></path>
+        </g>
+      </svg>
+    </i>
+    <div class="tgme_widget_message_author accent_color"><a class="tgme_widget_message_owner_name" href="https://t.me/razborfeed"><span dir="auto">Полезняшки от &quot;Разбора Полетов&quot;</span></a></div>
+
+
+
+<div class="tgme_widget_message_text js-message_text" dir="auto">Show HN: Kubetail – Web-based real-time log viewer for Kubernetes<br/><a href="https://github.com/kubetail-org/kubetail" target="_blank" rel="noopener">https://github.com/kubetail-org/kubetail</a></div>
+<a class="tgme_widget_message_link_preview" href="https://github.com/kubetail-org/kubetail">
+  
+  <div class="link_preview_site_name accent_color" dir="auto">GitHub</div>
+  <i class="link_preview_image" style="background-image:url('https://cdn4.cdn-telegram.org/file/pzvLVIPhkRyu-KqpAVBWjxZT1OpgmOwf6NqTQd0X-tXI4A5Uf9fk_HWN1oBoMmmEiPOzr5f0qXEdCBuIrrYPZOKsFOg9fEAgckoWSqE85GVuTgiwLEV2ayhB3WaDFl1DlyDtdfq9EGt0CDDAqRQRIXXua2g9UIaBU1OXbln8iPMAfnhXYKKU7g81j01z4yXpK4vV-vva_4je9dis3swvPJGS7jDQ-9cJdKO_l4NYIKaDk7SzZXM78OkcpYM-nqXhepHg78evl5fn4rNDZ-DrnXgxK6QjZhCUfTKEkPJ1kLdBHpdhWBS4ef9eiGoIn7tiVqoZpUP0WkS9-gxphGeTLQ.jpg');padding-top:50%"></i>
+  <div class="link_preview_title" dir="auto">GitHub - kubetail-org/kubetail: Web-based, real-time log viewer for Kubernetes clusters</div>
+  <div class="link_preview_description" dir="auto">Web-based, real-time log viewer for Kubernetes clusters - kubetail-org/kubetail</div>
+</a>
+<div class="tgme_widget_message_footer compact js-message_footer">
+  
+  <div class="tgme_widget_message_info short js-message_info">
+    <span class="tgme_widget_message_views">270</span><span class="copyonly"> views</span><span class="tgme_widget_message_meta"><a class="tgme_widget_message_date" href="https://t.me/razborfeed/3658"><time datetime="2024-02-14T14:56:33+00:00" class="time">14:56</time></a></span>
+  </div>
+</div>
+  </div>
+  
+</div></div>
+    </section>
+  </div>
+</main>
+    <script src="//telegram.org/js/jquery.min.js"></script>
+    <script src="//telegram.org/js/jquery-ui.min.js"></script>
+    <script src="//telegram.org/js/tgwallpaper.min.js?3"></script>
+<script src="//telegram.org/js/tgsticker.js?31"></script>
+
+    <script src="//telegram.org/js/widget-frame.js?62"></script>
+    <script src="//telegram.org/js/telegram-web.js?14"></script>
+    <script>TWeb.init();
+</script>
+    
+  </body>
+</html>
+<!-- page generated in 570.29ms -->
