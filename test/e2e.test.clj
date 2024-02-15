@@ -14,13 +14,17 @@
             (let [exp_path (.replace path ".xml" ".json")]
               (->
                (fs/readFile exp_path "utf-8")
-               (.then (fn [expected] (println "Test result:" (= expected res) "|" path)))
+               (.then (fn [expected]
+                        (println "Test result:" (= expected res) "|" path)
+                        (if (= expected res) null (.exit process 1))))
                (.catch (fn [] (fs/writeFile exp_path res)))))))))
 
 (->
  (w/unstable_dev "bin/main.js")
  (.then (fn [worker]
           (->
-           (assert worker "/test/"  "../test/xml_parser/androidx-release-notes.xml")
-           (assert worker "/test2/" "../test/xml_parser/izpodshtorki.xml")
+           (Promise/resolve null)
+           (.then (fn [] (assert worker "/test/"  "../test/xml_parser/androidx-release-notes.xml")))
+           (.then (fn [] (assert worker "/test2/" "../test/xml_parser/izpodshtorki.xml")))
+           (.then (fn [] (assert worker "/test2/" "../test/xml_parser/razborfeed.xml")))
            (.then (fn [] (.stop worker)))))))

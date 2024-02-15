@@ -3,3 +3,4 @@ _build_/
 .wrangler/
 .dev.vars
 bin/
+.vscode/

@@ -1,37 +1,49 @@
-(defn parse_tg_feed [url]
+(defn parse_tg_feed [body]
   (let [items []]
     (->
-     (fetch url)
+     (Promise/resolve (Response. body))
      (.then (fn [res]
-              (let [text_builder (atom "") global_tb (atom "")]
+              (let [text_buffer (atom "")]
                 (->
                  (HTMLRewriter.)
-                 (.on "div.tgme_widget_message *"
+                 (.on "div.tgme_widget_message_bubble"
+                      {:element (fn [element] (.push items {}))})
+                 (.on "div.tgme_widget_message_bubble *"
                       {:element (fn [element]
-                                  (let [tag element.tagName clazz (or (.getAttribute element "class") "")]
-                                    (if (and (= tag "div") (.startsWith clazz "tgme_widget_message_bubble"))
-                                      (do
-                                        (reset global_tb "")
-                                        (.push items {})
-                                        (.onEndTag element
-                                                   (fn []
-                                                     (set! (.-text (.at items -1)) (deref global_tb))
-                                                     (reset global_tb "")))) null)
-                                    (if (and (= tag "a") (.startsWith clazz "tgme_widget_message_date"))
-                                      (if (= 0 items.length) null
-                                          (set! (.-url (.at items -1)) (.getAttribute element "href"))) null)))
+                                  (cond
+                                    (= null (.getAttribute element "class")) null
+                                    (.startsWith (.getAttribute element "class") "tgme_widget_message_text")
+                                    (do
+                                      (reset text_buffer "")
+                                      (.onEndTag element (fn []
+                                                           (.push items (assoc (.pop items) :text (deref text_buffer)))
+                                                           (reset text_buffer ""))))
+                                    (.startsWith (.getAttribute element "class") "tgme_widget_message_date")
+                                    (set! (.-url (.at items -1)) (.getAttribute element "href"))
+                                    :else null))
                        :text (fn [t]
-                               (reset text_builder (str (deref text_builder) t.text))
-                               (if t.lastInTextNode
-                                 (do
-                                   (if (not= "" (.trim (deref text_builder)))
-                                     (reset global_tb (str (deref global_tb) (deref text_builder)))
-                                     null)
-                                   (reset text_builder ""))
-                                 null))})
+                               (reset text_buffer (str (deref text_buffer) t.text)))})
                  (.transform res)))))
      (.then (fn [x] (.arrayBuffer x)))
      (.then (fn [] items)))))
+
+(comment
+
+  ;; HTML
+  [:div {:class "tgme_widget_message_bubble"}
+   {:text [:div {:class "tgme_widget_message_text"} :inner_text]
+    :url [:a {:class "tgme_widget_message_date"} :href]}]
+
+  ;; RSS
+  [:entry {}
+   {:link [:link {} :href]
+    :updated [:updated {} :inner_text]
+    :id [:id {} :inner_text]
+    :title [:title {} :inner_text]
+    :links [:content {} {:url [:a {} :href]
+                         :title [:a {} :inner_text]}]}]
+
+  comment)
 
 (defn parse_rss_feed [body limit]
   (let [items []]
