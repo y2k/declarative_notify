@@ -29,11 +29,23 @@
 
 (comment
 
+  [:div {:class "tgme_widget_message_bubble"}
+   [:div {:class "tgme_widget_message_text"} :inner_text]
+   [:a {:class "tgme_widget_message_date"} :href]]
+
+  [:entry {}
+   [:link {} :href]
+   [:updated {} :inner_text]
+   [:id {} :inner_text]
+   [:title {} :inner_text]
+   [:content {}
+    [:a {} :href]
+    [:a {} :inner_text]]]
+
   ;; HTML
   [:div {:class "tgme_widget_message_bubble"}
    {:text [:div {:class "tgme_widget_message_text"} :inner_text]
     :url [:a {:class "tgme_widget_message_date"} :href]}]
-
   ;; RSS
   [:entry {}
    {:link [:link {} :href]
