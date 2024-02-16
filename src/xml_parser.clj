@@ -7,19 +7,22 @@
                 (->
                  (HTMLRewriter.)
                  (.on "div.tgme_widget_message_bubble"
-                      {:element (fn [element] (.push items {}))})
+                      {:element (fn [element] (.push items [null null]))})
                  (.on "div.tgme_widget_message_bubble *"
                       {:element (fn [element]
                                   (cond
                                     (= null (.getAttribute element "class")) null
+
                                     (.startsWith (.getAttribute element "class") "tgme_widget_message_text")
                                     (do
                                       (reset text_buffer "")
                                       (.onEndTag element (fn []
-                                                           (.push items (assoc (.pop items) :text (deref text_buffer)))
+                                                           (-> items (.at -1) (assoc! 0 (deref text_buffer)))
                                                            (reset text_buffer ""))))
+
                                     (.startsWith (.getAttribute element "class") "tgme_widget_message_date")
-                                    (set! (.-url (.at items -1)) (.getAttribute element "href"))
+                                    (-> items (.at -1) (assoc! 1 (.getAttribute element "href")))
+
                                     :else null))
                        :text (fn [t]
                                (reset text_buffer (str (deref text_buffer) t.text)))})
@@ -67,30 +70,31 @@
                  (HTMLRewriter.)
                  (.on "entry"
                       {:element (fn [element]
-                                  (.push items {:links []}))})
+                                  (.push items [null null null null []]))})
                  (.on "entry *"
                       {:element (fn [element]
                                   (defn- update_text [key]
                                     (reset text_buffer "")
                                     (.onEndTag element (fn []
-                                                         (.push items (assoc (.pop items) key (deref text_buffer)))
+                                                         (assoc! (.at items -1) key (deref text_buffer))
                                                          (reset text_buffer ""))))
                                   (case element.tagName
-                                    :link (set! (.-url (.at items -1)) (.getAttribute element "href"))
-                                    :updated (update_text :updated)
-                                    :id (update_text :id)
-                                    :title (update_text :title)
+                                    :link (assoc! (.at items -1) 0 (.getAttribute element "href"))
+                                    :updated (update_text 1)
+                                    :id (update_text 2)
+                                    :title (update_text 3)
                                     null))
                        :text (fn [t]
                                (reset text_buffer (str (deref text_buffer) t.text)))})
                  (.on "entry content a"
                       {:element
                        (fn [element]
-                         (.push (.-links (.at items -1)) {:href (.getAttribute element "href")})
+                         (-> items (.at -1) (.at 4) (.push [null null]))
+                         (-> items (.at -1) (.at 4) (.at -1) (assoc! 0 (.getAttribute element "href")))
                          (reset text_buffer "")
                          (.onEndTag element
                                     (fn []
-                                      (set! (.-name (.at (.-links (.at items -1)) -1)) (deref text_buffer))
+                                      (-> items (.at -1) (.at 4) (.at -1) (assoc! 1 (deref text_buffer)))
                                       (reset text_buffer ""))))})
                  (.transform res)))))
      (.then (fn [x] (.arrayBuffer x)))

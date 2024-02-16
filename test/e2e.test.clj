@@ -3,8 +3,6 @@
             [js.wrangler :as w]
             [js.fs.promises :as fs]))
 
-;;     ;; parse_tg_feed
-
 (defn assert [worker url path]
   (->
    (fs/readFile path "utf-8")
