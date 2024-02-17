@@ -1,17 +1,6 @@
 run: hook
 	wrangler dev --test-scheduled
 
-# test_run: build
-# 	clear && clj2js ../src/main.test.clj > bin/main.test.js
-# 	pkill -2 -f wrangler || true
-# 	nohup wrangler dev bin/main.test.js &
-# 	clear && sleep 2
-# 	clear && curl http://localhost:8787/
-# 	@pkill -2 -f wrangler
-
-# schedule:
-# 	clear && curl "http://localhost:8787/__scheduled?cron=*+*+*+*+*"
-
 e2e_test: build
 	clear && clj2js ../test/e2e.test.clj > bin/e2e.test.js && \
 	node --env-file=.dev.vars bin/e2e.test.js
