@@ -1,20 +1,20 @@
 run: hook
 	wrangler dev --test-scheduled
 
-e2e_test: build
-	clear && clj2js ../test/e2e.test.clj > bin/e2e.test.js && \
+e2e_test: test
+	clear && clj2js js ../test/e2e.test.clj > bin/e2e.test.js && \
 	node --env-file=.dev.vars bin/e2e.test.js
 
 test: build
-	clear && clj2js ../test/test.clj > bin/test.js && \
+	clear && clj2js js ../test/test.clj > bin/test.js && \
 	node --env-file=.dev.vars bin/test.js
 
 build:
-	clear && clj2js prelude > bin/prelude.js && \
-	clear && clj2js ../src/xml_parser.clj > bin/xml_parser.js && \
-	clear && clj2js ../src/main.clj > bin/main.js && \
-	clear && clj2js prelude > bin/vendor/prelude.js && \
-	clear && clj2js ../src/vendor/effects.clj > bin/vendor/effects.js
+	clear && clj2js js prelude > bin/prelude.js && \
+	clear && clj2js js ../src/xml_parser.clj > bin/xml_parser.js && \
+	clear && clj2js js ../src/main.clj > bin/main.js && \
+	clear && clj2js js prelude > bin/vendor/prelude.js && \
+	clear && clj2js js ../src/vendor/effects.clj > bin/vendor/effects.js
 
 migrate:
 	wrangler d1 execute DECLARATIVE_NOTIFY_BOT_DB --local --file=schema.sql
