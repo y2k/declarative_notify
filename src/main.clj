@@ -113,36 +113,40 @@
 (export-default
  {:fetch
   (fn [request env ctx]
-    (if (.includes request.url "/test/")
+    (cond
+      (.includes request.url "/test/")
       (->
        (.text request)
        (.then (fn [x] (xp/parse_rss_feed x 100)))
        (.then (fn [x] (Response. (JSON/stringify x null 4)))))
-      (if (.includes request.url "/test2/")
-        (->
-         (.text request)
-         (.then (fn [x] (xp/parse_tg_feed x)))
-         (.then (fn [x] (Response. (JSON/stringify x null 4)))))
-        (->
-         (.json request)
-         (.then (fn [update]
-                  (let [world (->
-                               env
-                               e/attach_empty_effect_handler
-                               (e/attach_eff :db
-                                             (fn [[sql sql_args]]
-                                               (->
-                                                env.DB (.prepare sql) (.bind (spread sql_args)) .run
-                                                (.then (fn [x] x.results)))))
-                               (e/attach_eff :fetch
-                                             (fn [[url props]]
-                                               (->
-                                                (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
-                                                (fetch props))))
-                               (e/attach_eff :dispatch
-                                             (fn [[key data]]
-                                               (e/run_effect (handle_event key data) world)))
-                               e/attach_log)]
-                    (e/run_effect (handle_event :telegram update) world))))
-         (.catch console.error)
-         (.then (fn [] (Response. (str "OK - " (Date.)))))))))})
+
+      (.includes request.url "/test2/")
+      (->
+       (.text request)
+       (.then (fn [x] (xp/parse_tg_feed x)))
+       (.then (fn [x] (Response. (JSON/stringify x null 4)))))
+
+      :else
+      (->
+       (.json request)
+       (.then (fn [update]
+                (let [world (->
+                             env
+                             e/attach_empty_effect_handler
+                             (e/attach_eff :db
+                                           (fn [[sql sql_args]]
+                                             (->
+                                              env.DB (.prepare sql) (.bind (spread sql_args)) .run
+                                              (.then (fn [x] x.results)))))
+                             (e/attach_eff :fetch
+                                           (fn [[url props]]
+                                             (->
+                                              (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
+                                              (fetch props))))
+                             (e/attach_eff :dispatch
+                                           (fn [[key data]]
+                                             (e/run_effect (handle_event key data) world)))
+                             e/attach_log)]
+                  (e/run_effect (handle_event :telegram update) world))))
+       (.catch console.error)
+       (.then (fn [] (Response. (str "OK - " (Date.))))))))})
