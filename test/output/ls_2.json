@@ -1,9 +1,10 @@
 [
     {
         "key": "fetch",
-        "data": [
-            "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-            {
+        "data": {
+            "url": "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
+            "decoder": "json",
+            "props": {
                 "method": "POST",
                 "body": {
                     "chat_id": 241854720,
@@ -13,6 +14,6 @@
                     "Content-Type": "application/json"
                 }
             }
-        ]
+        }
     }
 ]

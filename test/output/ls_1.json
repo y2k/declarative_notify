@@ -1,12 +1,12 @@
 [
     {
-        "key": "db",
-        "data": [
-            "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
-            [
+        "key": "database",
+        "data": {
+            "sql": "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
+            "args": [
                 241854720
             ]
-        ]
+        }
     },
     {
         "key": "dispatch",
@@ -15,13 +15,13 @@
             [
                 241854720,
                 [
-                    "db",
-                    [
-                        "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
-                        [
+                    "database",
+                    {
+                        "sql": "SELECT * FROM subscriptions WHERE document->>'user_id' = ?",
+                        "args": [
                             241854720
                         ]
-                    ]
+                    }
                 ]
             ]
         ]

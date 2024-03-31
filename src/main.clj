@@ -1,15 +1,10 @@
 (ns app (:require [vendor.effects :as e]
                   [xml_parser :as xp]))
 
-(defn- eff_db [sql args]
-  (fn [env] (env/perform :db [sql args])))
-
-(defn- eff_fetch [url props]
-  (fn [env] (env/perform :fetch [url props])))
-
 (defn- send_message [data]
-  (eff_fetch
+  (e/fetch
    "https://api.telegram.org/bot~TG_TOKEN~/sendMessage"
+   :json
    {:method "POST"
     :body (JSON/stringify data)
     :headers {"Content-Type" "application/json"}}))
@@ -30,7 +25,7 @@
   (if-let [user_id update?.message?.from?.id
            _ (= update?.message?.text "/ls")]
     (->
-     (eff_db "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
+     (e/database "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
      (e/then (fn [items]
                (e/dispatch :handle_ls [user_id items]))))
     null))
@@ -39,7 +34,7 @@
   (if-let [user_id update?.message?.from?.id
            topic (match_rule update?.message?.text "/sub\\s+(\\w+)")]
     (e/batch
-     [(eff_db
+     [(e/database
        "INSERT INTO subscriptions (document) VALUES (?)"
        [(JSON/stringify {:topic topic :user_id user_id})])
       (send_message {:chat_id user_id :text "Subscription created"})])
@@ -49,10 +44,17 @@
   (if-let [user_id update?.message?.from?.id
            topic (match_rule update?.message?.text "/rm\\s+(\\w+)")]
     (e/batch
-     [(eff_db
+     [(e/database
        "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?"
        [topic user_id])
       (send_message {:chat_id user_id :text "Subscriptions deleted"})])
+    null))
+
+(defn- handle_telegram_default [update]
+  (if-let [user_id update?.message?.from?.id]
+    (send_message
+     {:chat_id user_id
+      :text "/ls - your subscriptions"})
     null))
 
 (defn- handle_chat_update_send [[message_id text r]]
@@ -87,7 +89,7 @@
            message_id update?.message?.message_id
            _ (= chat_id -1002110559199)]
     (->
-     (eff_db "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
+     (e/database "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
      (e/then (fn [r]
                (e/dispatch :handle_chat_update [message_id text r]))))
     (FIXME (JSON/stringify update))))
@@ -101,6 +103,7 @@
                    (handle_ls data)
                    (handle_sub data)
                    (handle_rm data)
+                   (handle_telegram_default data)
                    (e/pure null))
                   (handle_chat_update data))
                 (FIXME (JSON/stringify data)))
@@ -133,13 +136,13 @@
                 (let [world (->
                              env
                              e/attach_empty_effect_handler
-                             (e/attach_eff :db
-                                           (fn [[sql sql_args]]
+                             (e/attach_eff :database
+                                           (fn [{sql :sql sql_args :args}]
                                              (->
                                               env.DB (.prepare sql) (.bind (spread sql_args)) .run
                                               (.then (fn [x] x.results)))))
                              (e/attach_eff :fetch
-                                           (fn [[url props]]
+                                           (fn [{url :url props :props}]
                                              (->
                                               (.replaceAll url "~TG_TOKEN~" env.TG_TOKEN)
                                               (fetch props))))
