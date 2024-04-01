@@ -15,10 +15,10 @@ build:
 	@ mkdir -p bin/vendor
 	@ echo '{"type": "module"}' > bin/package.json
 	@ cp ../vendor/prelude/js/src/prelude.js bin/prelude.js
-	@ clear && clj2js js ../src/xml_parser.clj ../vendor/prelude/js/src/prelude.clj > bin/xml_parser.js
+	@ clear && clj2js js ../vendor/packages/cf-xmlparser/xml_parser.clj ../vendor/prelude/js/src/prelude.clj > bin/xml_parser.js
 	@ clear && clj2js js ../src/main.clj ../vendor/prelude/js/src/prelude.clj > bin/main.js
 	@ cp ../vendor/prelude/js/src/prelude.js bin/vendor/prelude.js
-	@ clear && clj2js js ../vendor/effects/src/effects.clj ../vendor/prelude/js/src/prelude.clj > bin/vendor/effects.js
+	@ clear && clj2js js ../vendor/packages/effects/effects.clj ../vendor/prelude/js/src/prelude.clj > bin/vendor/effects.js
 
 clean:
 	@ rm -rf bin
