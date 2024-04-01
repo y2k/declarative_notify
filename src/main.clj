@@ -26,8 +26,7 @@
            _ (= update?.message?.text "/ls")]
     (->
      (e/database "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
-     (e/then (fn [items]
-               (e/dispatch :handle_ls [user_id items]))))
+     (e/next :handle_ls (fn [items] [user_id items])))
     null))
 
 (defn- handle_sub [update]
@@ -90,8 +89,7 @@
            _ (= chat_id -1002110559199)]
     (->
      (e/database "SELECT document->>'topic' AS topic, group_concat(distinct(document->>'user_id')) AS user_ids FROM subscriptions GROUP BY topic" [])
-     (e/then (fn [r]
-               (e/dispatch :handle_chat_update [message_id text r]))))
+     (e/next :handle_chat_update (fn [r] [message_id text r])))
     (FIXME (JSON/stringify update))))
 
 (defn handle_event [key data]
