@@ -3,8 +3,8 @@
         "key": "fetch",
         "data": {
             "url": "https://api.telegram.org/bot~TG_TOKEN~/sendMessage",
-            "decoder": "json",
             "props": {
+                "decoder": "json",
                 "method": "POST",
                 "body": {
                     "chat_id": 241854720,
