@@ -1,5 +1,5 @@
-(ns core (:require ["../vendor/packages/effects/effects.2" :as e]
-                   ["../vendor/packages/cf-xmlparser/xml_parser" :as xp]))
+(ns core (:require ["../vendor/effects/effects.2" :as e]
+                   ["../vendor/cf-xmlparser/xml_parser" :as xp]))
 
 (defn- send_message [data]
   (e/fetch
@@ -27,7 +27,7 @@
     (->
      (e/database "SELECT * FROM subscriptions WHERE document->>'user_id' = ?" [user_id])
      (e/next :handle_ls (fn [items] [user_id items])))
-    null))
+    nil))
 
 (defn- handle_sub [update]
   (if-let [user_id update?.message?.from?.id
@@ -37,7 +37,7 @@
        "INSERT INTO subscriptions (document) VALUES (?)"
        [(JSON.stringify {:topic topic :user_id user_id})])
       (send_message {:chat_id user_id :text "Subscription created"})])
-    null))
+    nil))
 
 (defn- handle_rm [update]
   (if-let [user_id update?.message?.from?.id
@@ -47,14 +47,14 @@
        "DELETE FROM subscriptions WHERE document->>'topic' = ? AND document->>'user_id' = ?"
        [topic user_id])
       (send_message {:chat_id user_id :text "Subscriptions deleted"})])
-    null))
+    nil))
 
 (defn- handle_telegram_default [update]
   (if-let [user_id update?.message?.from?.id]
     (send_message
      {:chat_id user_id
       :text "/ls - your subscriptions"})
-    null))
+    nil))
 
 (defn- handle_chat_update_send [[message_id text r]]
   (defn- get_unique_words [text]
@@ -102,7 +102,7 @@
                    (handle_sub data)
                    (handle_rm data)
                    (handle_telegram_default data)
-                   (e/pure null))
+                   (e/pure nil))
                   (handle_chat_update data))
                 (FIXME (JSON.stringify data)))
     :handle_ls (handle_ls_send data)

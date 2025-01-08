@@ -1,5 +1,5 @@
-(ns app (:require ["../vendor/packages/effects/effects.2" :as e]
-                  [core :as c]))
+(ns _ (:require ["../vendor/packages/effects/effects.2" :as e]
+                [core :as c]))
 
 (export-default
  {:fetch

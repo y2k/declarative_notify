@@ -1,36 +1,41 @@
+OUT_DIR=.github/bin
+
 .PHONY: test
 test: build
-	@ clear && clj2js js ../test/test.clj > bin/test/test.js
-	@ node --env-file=.dev.vars bin/test/test.js
-
-.PHONY: run
-run: hook
-	@ wrangler dev --test-scheduled
+	@ clj2js js test/test.clj > $(OUT_DIR)/test/test.js
+	@ cd .github && node --env-file=.dev.vars bin/test/test.js
 
 .PHONY: e2e_test
 e2e_test: test
-	@ echo '{"type": "module", "devDependencies": {"wrangler": "^3.38.0"}}' > bin/package.json
-	@ cd bin && yarn
-	@ clear && clj2js js ../test/main_test.clj > bin/test/main_test.js
-	@ clear && clj2js js ../test/e2e.test.clj > bin/test/e2e.test.js
-	@ node --env-file=.dev.vars bin/test/e2e.test.js
+	@ echo '{"type": "module", "devDependencies": {"wrangler": "^3.38.0"}}' > $(OUT_DIR)/package.json
+	@ cd $(OUT_DIR) && yarn
+	@ clj2js js test/main_test.clj > $(OUT_DIR)/test/main_test.js
+	@ clj2js js test/e2e.test.clj > $(OUT_DIR)/test/e2e.test.js
+	@ cd .github && node --env-file=.dev.vars bin/test/e2e.test.js
+
+.PHONY: run
+run: hook
+	@ cd .github && wrangler dev --test-scheduled
 
 .PHONY: build
 build:
-	@ mkdir -p bin/src && mkdir -p bin/test && mkdir -p bin/vendor/packages/effects && mkdir -p bin/vendor/packages/cf-xmlparser
-	@ echo '{"type": "module"}' > bin/package.json
-	@ clear && clj2js js ../vendor/packages/effects/effects.2.clj > bin/vendor/packages/effects/effects.2.js
-	@ clear && clj2js js ../vendor/packages/cf-xmlparser/xml_parser.clj > bin/vendor/packages/cf-xmlparser/xml_parser.js
-	@ clear && clj2js js ../src/core.clj > bin/src/core.js
-	@ clear && clj2js js ../src/main.clj > bin/src/main.js
+	@ mkdir -p $(OUT_DIR)/src && \
+		mkdir -p $(OUT_DIR)/test && \
+		mkdir -p $(OUT_DIR)/vendor/effects && \
+		mkdir -p $(OUT_DIR)/vendor/cf-xmlparser
+	@ echo '{"type": "module"}' > $(OUT_DIR)/package.json
+	@ clj2js js vendor/effects/effects.2.clj > $(OUT_DIR)/vendor/effects/effects.2.js
+	@ clj2js js vendor/cf-xmlparser/xml_parser.clj > $(OUT_DIR)/vendor/cf-xmlparser/xml_parser.js
+	@ clj2js js src/core.clj > $(OUT_DIR)/src/core.js
+	@ clj2js js src/main.clj > $(OUT_DIR)/src/main.js
 
 .PHONY: clean
 clean:
-	@ rm -rf bin
+	@ rm -rf $(OUT_DIR)
 
 .PHONY: migrate
 migrate:
-	@ wrangler d1 execute DECLARATIVE_NOTIFY_BOT_DB --local --file=schema.sql
+	@ cd .github && wrangler d1 execute DECLARATIVE_NOTIFY_BOT_DB --local --file=schema.sql
 
 .PHONY: hook
 hook:
