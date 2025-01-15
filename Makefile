@@ -2,15 +2,15 @@ OUT_DIR=.github/bin
 
 .PHONY: test
 test: build
-	@ clj2js js test/test.clj > $(OUT_DIR)/test/test.js
+	@ clj2js compile -target js -src test/test.clj > $(OUT_DIR)/test/test.js
 	@ cd .github && node --env-file=.dev.vars bin/test/test.js
 
 .PHONY: e2e_test
 e2e_test: test
 	@ echo '{"type": "module", "devDependencies": {"wrangler": "^3.38.0"}}' > $(OUT_DIR)/package.json
 	@ cd $(OUT_DIR) && yarn
-	@ clj2js js test/main_test.clj > $(OUT_DIR)/test/main_test.js
-	@ clj2js js test/e2e.test.clj > $(OUT_DIR)/test/e2e.test.js
+	@ clj2js compile -target js -src test/main_test.clj > $(OUT_DIR)/test/main_test.js
+	@ clj2js compile -target js -src test/e2e.test.clj > $(OUT_DIR)/test/e2e.test.js
 	@ cd .github && node --env-file=.dev.vars bin/test/e2e.test.js
 
 .PHONY: run
@@ -24,10 +24,10 @@ build:
 		mkdir -p $(OUT_DIR)/vendor/effects && \
 		mkdir -p $(OUT_DIR)/vendor/cf-xmlparser
 	@ echo '{"type": "module"}' > $(OUT_DIR)/package.json
-	@ clj2js js vendor/effects/effects.2.clj > $(OUT_DIR)/vendor/effects/effects.2.js
-	@ clj2js js vendor/cf-xmlparser/xml_parser.clj > $(OUT_DIR)/vendor/cf-xmlparser/xml_parser.js
-	@ clj2js js src/core.clj > $(OUT_DIR)/src/core.js
-	@ clj2js js src/main.clj > $(OUT_DIR)/src/main.js
+	@ clj2js compile -target js -src vendor/effects/effects.2.clj > $(OUT_DIR)/vendor/effects/effects.2.js
+	@ clj2js compile -target js -src vendor/cf-xmlparser/xml_parser.clj > $(OUT_DIR)/vendor/cf-xmlparser/xml_parser.js
+	@ clj2js compile -target js -src src/core.clj > $(OUT_DIR)/src/core.js
+	@ clj2js compile -target js -src src/main.clj > $(OUT_DIR)/src/main.js
 
 .PHONY: clean
 clean:
